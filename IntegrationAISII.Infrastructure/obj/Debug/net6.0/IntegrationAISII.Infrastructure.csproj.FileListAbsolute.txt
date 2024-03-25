@@ -1,0 +1,15 @@
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Infrastructure.deps.json
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Infrastructure.dll
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Infrastructure.pdb
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Domain.dll
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Domain.pdb
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.csproj.AssemblyReference.cache
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.AssemblyInfoInputs.cache
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.AssemblyInfo.cs
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.csproj.CoreCompileInputs.cache
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.csproj.CopyComplete
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.dll
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\refint\IntegrationAISII.Infrastructure.dll
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.pdb
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\ref\IntegrationAISII.Infrastructure.dll
