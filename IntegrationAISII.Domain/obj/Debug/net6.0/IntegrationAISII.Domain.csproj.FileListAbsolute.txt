@@ -1,0 +1,12 @@
+D:\project\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.deps.json
+D:\project\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.dll
+D:\project\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.pdb
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.csproj.AssemblyReference.cache
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.AssemblyInfoInputs.cache
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.AssemblyInfo.cs
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.csproj.CoreCompileInputs.cache
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.dll
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\refint\IntegrationAISII.Domain.dll
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.pdb
+D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\ref\IntegrationAISII.Domain.dll
