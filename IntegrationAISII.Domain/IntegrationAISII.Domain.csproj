@@ -13,8 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AggregatesModel\AcknowledgementAggregate\IncomingAcknowledgementAggregate\" />
-    <Folder Include="AggregatesModel\MessageAggregate\" />
     <Folder Include="AggregatesModel\TaskAggregate\" />
     <Folder Include="AggregatesModel\SubscriberAggregate\" />
     <Folder Include="AggregatesModel\FileStorageAggregate\" />
