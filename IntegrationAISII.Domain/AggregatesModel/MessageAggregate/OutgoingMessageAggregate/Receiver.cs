@@ -13,10 +13,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
     public class Receiver : Entity
     {
         private long _orgainizationId;
+        private Organization _orgainization;
+        private long _messageId;
         private OutgoingMessage _message;
         private List<OutgoingMailingTrack> _mailingTracks;
 
-        public Organization Organization { get; private set; }
+        public Organization Organization { get => _orgainization; }
         public List<OutgoingMailingTrack> MailingTracks { get => _mailingTracks; }
 
         public Receiver(OutgoingMessage message, long orgainizationId)
@@ -31,7 +33,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
 
         public bool CompareByOrganizationId(long organizationId) => this._orgainizationId == organizationId;
 
-        public void AddOutgoingMailingTrack(TrackingStatuses status)
+        public void AddOutgoingMailingTrack(TrackingStatus status)
         {
             var statusExists = _mailingTracks.SingleOrDefault(mt=>mt.Value == status);
             if (statusExists is null)

@@ -11,8 +11,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
 {
     public abstract class Acknowledgement : Entity, IAggregateRoot, IAcknowledgement
     {
-        private int _ackType;
-        public int _status;
+        private int _ackTypeId;
+        public int _statusId;
         private DateTime _createDate;
         private Guid _ackMessageGuid;
         private bool _isLocked;
@@ -29,7 +29,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
 
         protected Acknowledgement(string subject, string errorText, int errorCode)
         {
-            _status = AckStatus.SendingWaiting.Id;
+            _statusId = AckStatus.SendingWaiting.Id;
             _createDate = DateTime.UtcNow;
             _isLocked = false;
             _subject = subject ?? throw new ArgumentNullException(nameof(subject));
@@ -47,7 +47,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         /// <summary>
         /// Тип уведомления
         /// </summary>
-        public NotificationType AckType { get => NotificationType.From(_ackType); }
+        public NotificationType AckType { get => NotificationType.From(_ackTypeId); }
         /// <summary>
         /// Текст уведомления
         /// </summary>
@@ -61,7 +61,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         /// <summary>
         /// Состояние уведомления
         /// </summary>
-        public AckStatus Status { get => AckStatus.From(_status); }
+        public AckStatus Status { get => AckStatus.From(_statusId); }
         /// <summary>
         /// Дата создания
         /// </summary>
@@ -94,6 +94,26 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         public virtual void SetIsLocked(bool isLocked)
         {
             _isLocked = isLocked;
+        }
+
+        public void SetAckMessageGuid(Guid ackMessageGuid)
+        {
+            _ackMessageGuid = ackMessageGuid;
+        }
+
+        public void SetSubject(string subject)
+        {
+            _subject = subject;
+        }
+
+        public void SetErrorText(string errorText)
+        {
+            _errorText = errorText;
+        }
+
+        public void SetErrorCode(int errorCode)
+        {
+            _errorCode = errorCode;
         }
 
     }

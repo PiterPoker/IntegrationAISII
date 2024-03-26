@@ -1,6 +1,9 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.IncomingAcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate.IncomingAddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.IncomingDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate.IncomingMailingTrackAggregate;
@@ -20,6 +23,13 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
         private Guid _messageType;
         private List<IncomingMailingTrack> _mailingTracks;
         private long _senderId;
+        private Organization _sender;
+        private long? _addDocumentId;
+        private IncomingAddDocument _addDocument;
+        private long? _documentId;
+        private IncomingDocument _document;
+        private long? _acknowledgementId;
+        private IncomingAcknowledgement _acknowledgement;
 
         public IncomingMessage(Guid packageId, string subject, long? subscriberId, long? senderId)
             : base(packageId, subject, subscriberId)
@@ -34,10 +44,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
         }
 
         public override Guid MessageType { get => _messageType; }
-        public Organization Sender { get; private set; }
-        public IncomingAddDocument AddDocument { get; private set; }
-        public IncomingDocument Document { get; private set; }
+        public Organization Sender { get => _sender; }
+        public override AddDocument AddDocument { get => _addDocument; }
+        public override Document Document { get => _document;  }
+        public override Acknowledgement Acknowledgement { get => _acknowledgement; }
         public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
+
 
         public void SetIncomingDocumnet(string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
         {
@@ -51,53 +63,53 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
 
         public void SetIncomingDocumnet(string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId, OutgoingMessage mainMessage, Message parentMessage)
         {
-            if (Document is null) 
+            if (_document is null) 
             {
-                Document = new IncomingDocument(this, idNumber, isConfident, regNumber, pages, regDate, documentGuid, title, documentTypeId);
+                _document = new IncomingDocument(this, idNumber, isConfident, regNumber, pages, regDate, documentGuid, title, documentTypeId);
             }
             else
             {
-                Document.SetIdNumber(idNumber);
-                Document.SetIsConfident(isConfident);
-                Document.SetRegNumber(regNumber);
-                Document.SetPages(pages);
-                Document.SetRegDate(regDate);
-                Document.SetDocumentGuid(documentGuid);
-                Document.SetDocumentTypeId(documentTypeId);
+                _document.SetIdNumber(idNumber);
+                _document.SetIsConfident(isConfident);
+                _document.SetRegNumber(regNumber);
+                _document.SetPages(pages);
+                _document.SetRegDate(regDate);
+                _document.SetDocumentGuid(documentGuid);
+                _document.SetDocumentTypeId(documentTypeId);
             }
 
             if (mainMessage is not null)
-                Document.SetMainMessage(mainMessage);
+                _document.SetMainMessage(mainMessage);
 
             if (parentMessage is not null)
-                Document.SetParentMessage(parentMessage);
+                _document.SetParentMessage(parentMessage);
 
-            if (AddDocument is not null)
+            if (_addDocument is not null)
             {
-                AddDocument.SetMainDocument(Document);
+                _addDocument.SetMainDocument(_document);
             }
         }
 
         public void SetIncomingAddDocument(Guid addDocumentGuid, TypeMaterial addType, string content)
         {
-            if (AddDocument is null) 
+            if (_addDocument is null) 
             {
-                this.AddDocument = new IncomingAddDocument(this, addDocumentGuid, addType.Id, content);
+                this._addDocument = new IncomingAddDocument(this, addDocumentGuid, addType.Id, content);
             }
             else
             {
-                AddDocument.SetAddDocumentGuid(addDocumentGuid);
-                AddDocument.SetAddType(addType.Id);
-                AddDocument.SetContent(content);
+                _addDocument.SetAddDocumentGuid(addDocumentGuid);
+                _addDocument.SetAddType(addType.Id);
+                _addDocument.SetContent(content);
             }
 
-            if(this.Document is not null)
+            if(this._document is not null)
             {
-                this.AddDocument.SetMainDocument(Document);
+                this._addDocument.SetMainDocument(_document);
             }
         }
 
-        public void AddMailingTrackForSender(TrackingStatuses status)
+        public void AddMailingTrackForSender(TrackingStatus status)
         {
             if (Sender is null)
                 throw new ArgumentNullException(nameof(Sender));
@@ -106,6 +118,27 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
             incomingMailingTrack.ChangeStatus(status);
             
             _mailingTracks.Add(incomingMailingTrack);
+        }
+
+        public void SetIncomingAcknowledgement(OutgoingMessage outgoingMessage, Guid ackMessageGuid, string subject, string errorText, int errorCode)
+        {
+            if (_acknowledgement is null)
+            {
+                this._acknowledgement = new IncomingAcknowledgement(this, outgoingMessage, ackMessageGuid, subject, errorText, errorCode);
+            }
+        }
+
+        public void SetIncomingAcknowledgement(Guid ackMessageGuid, string subject, string errorText, int errorCode)
+        {
+            if (_acknowledgement is null)
+            {
+                throw new ArgumentNullException(nameof(_acknowledgement));
+            }
+
+            _acknowledgement.SetAckMessageGuid(ackMessageGuid);
+            _acknowledgement.SetSubject(subject);
+            _acknowledgement.SetErrorText(errorText);
+            _acknowledgement.SetErrorCode(errorCode);
         }
     }
 }

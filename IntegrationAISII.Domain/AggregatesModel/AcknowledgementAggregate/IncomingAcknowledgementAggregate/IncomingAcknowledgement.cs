@@ -2,6 +2,7 @@
 using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate.IncomingMailingTrackAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MessageAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessageAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,15 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Incom
     public class IncomingAcknowledgement : Acknowledgement, IIncomingAcknowledgement
     {
         private List<IncomingMailingTrack> _mailingTracks;
-        private Message _message;
+        private IncomingMessage _message;
+        private long? _outgoingMessageId;
+        private OutgoingMessage _outgoingMessage;
         private Guid _acknowledgementType;
 
-        public IncomingAcknowledgement(Message message, Guid ackMessageGuid, string subject, string errorText, int errorCode)
+        public IncomingAcknowledgement(IncomingMessage message, OutgoingMessage outgoingMessage, Guid ackMessageGuid, string subject, string errorText, int errorCode)
             : base(ackMessageGuid, subject, errorText, errorCode)
         {
+            _outgoingMessage = outgoingMessage ?? throw new ArgumentNullException(nameof(outgoingMessage));
             _message = message;
             _acknowledgementType = Guid.Parse("597cf4f2-99b6-427a-b3f9-4b3f6eed3b6a");
             _mailingTracks = new List<IncomingMailingTrack>()
@@ -29,11 +33,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Incom
 
         public override Guid AcknowledgementType { get => _acknowledgementType; }
 
-        public override Message Message { get => _message; }
+        public override IncomingMessage Message { get => _message; }
+        public OutgoingMessage OutgoingMessage { get => _outgoingMessage; }
 
         public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
 
-        public void AddMailingTrack(TrackingStatuses status)
+        public void AddMailingTrack(TrackingStatus status)
         {
             if (_mailingTracks is null)
                 throw new ArgumentNullException(nameof(_mailingTracks));

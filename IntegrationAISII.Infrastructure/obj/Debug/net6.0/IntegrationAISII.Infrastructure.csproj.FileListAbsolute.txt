@@ -13,3 +13,5 @@ D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\Int
 D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\refint\IntegrationAISII.Infrastructure.dll
 D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.pdb
 D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\ref\IntegrationAISII.Infrastructure.dll
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\bin\Debug\net6.0\IntegrationAISII.Infrastructure.runtimeconfig.json
+D:\project\IntegrationAISII\IntegrationAISII.Infrastructure\obj\Debug\net6.0\IntegrationAISII.Infrastructure.genruntimeconfig.cache

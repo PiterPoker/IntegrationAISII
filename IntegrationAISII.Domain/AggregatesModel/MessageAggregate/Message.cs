@@ -1,4 +1,7 @@
-﻿using IntegrationAISII.Domain.SeedWork;
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
+using IntegrationAISII.Domain.SeedWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +48,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
         /// Идентификатор абонента-отправителя исх. сообщения/получателя вх. сообщения
         /// </summary>
         public long? SubscriberId { get => _subscriberId; }
+        public abstract AddDocument AddDocument { get; }
+        public abstract Document Document { get; }
+        public abstract Acknowledgement Acknowledgement { get; }
 
         protected Message(Guid packageId,
                         string subject,

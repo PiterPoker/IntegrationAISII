@@ -8,6 +8,6 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
         DateTime CreateDate { get; }
         string Description { get; }
         bool IsUnread { get; }
-        TrackingStatuses Value { get; }
+        TrackingStatus Value { get; }
     }
 }

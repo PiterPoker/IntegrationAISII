@@ -11,6 +11,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate
 {
     public class Signature : Entity, ISignature
     {
+        private long _versionId;
         private Version _version;
         private string _signer;
         private DateTime _signTime;

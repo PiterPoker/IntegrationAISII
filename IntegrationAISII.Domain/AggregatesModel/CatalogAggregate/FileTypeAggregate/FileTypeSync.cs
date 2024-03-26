@@ -8,12 +8,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.FileTypeAggre
 {
     public class FileTypeSync : CatalogSync
     {
-        private long _entitySyncId;
+        private long _fileTypeSyncId;
 
-        public override long EntitySyncId { get => _entitySyncId; }
+        public override long EntitySyncId { get => _fileTypeSyncId; }
         public FileTypeSync(long entitySyncId, long subscriberId) : base(subscriberId)
         {
-            _entitySyncId = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
+            _fileTypeSyncId = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
         }
 
     }

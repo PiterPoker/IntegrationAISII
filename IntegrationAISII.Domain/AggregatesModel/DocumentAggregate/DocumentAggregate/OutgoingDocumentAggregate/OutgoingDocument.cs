@@ -28,7 +28,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
 
         public override Message ParentMessage { get => _parantMessage; }
 
-        public override Message MainMessage { get => _mainMessage; }
+        public override IncomingMessage MainMessage { get => _mainMessage; }
 
         public IncomingMessage GetMainMessageAsOutgoingMessage() => _mainMessage;
 

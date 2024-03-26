@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
 
 namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
 {
@@ -15,6 +16,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
         /// Дата трека
         /// </summary>
         public DateTime CreateDate { get => _createDate; }
+        public abstract Acknowledgement Acknowledgement { get; }
         /// <summary>
         /// Описание трека сообщения
         /// </summary>
@@ -31,7 +33,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
 
         protected MailingTrack()
         {
-            this.ChangeStatus(TrackingStatuses.Init);
+            this.ChangeStatus(TrackingStatus.Init);
             this._isUnread = true;
         }
 
@@ -43,11 +45,11 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
         /// <summary>
         /// Значение трека
         /// </summary>
-        public TrackingStatuses Value { get => TrackingStatuses.From(_statusId); }
+        public TrackingStatus Value { get => TrackingStatus.From(_statusId); }
 
         public abstract Guid TypeGuid { get; }
 
-        public void ChangeStatus(TrackingStatuses status)
+        public void ChangeStatus(TrackingStatus status)
         {
             this._statusId = status.Id;
             this._description = status.Name;

@@ -11,8 +11,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate.Incoming
     public class IncomingMailingTrack : MailingTrack, IIncomingMailingTrack
     {
         private Guid _typeGuid;
+        private long? _incomingMessageId;
         private IncomingMessage _incomingMessage;
-        private IncomingAcknowledgement _incomingAcknowledgement;
+        private long? _acknowledgementId;
+        private IncomingAcknowledgement _acknowledgement;
+
+        public override IncomingAcknowledgement Acknowledgement { get => _acknowledgement; }
 
         public IncomingMailingTrack(DateTime createDate)
             : base(createDate)
@@ -29,7 +33,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate.Incoming
         public IncomingMailingTrack(IncomingAcknowledgement incomingAcknowledgement, DateTime createDate)
             : this(createDate)
         {
-            _incomingAcknowledgement = incomingAcknowledgement;
+            _acknowledgement = incomingAcknowledgement;
         }
 
         public override Guid TypeGuid { get => this._typeGuid; }

@@ -1,4 +1,8 @@
-﻿namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
+
+namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
 {
     public interface IMessage
     {
@@ -10,5 +14,8 @@
         Guid PackageId { get; }
         string Subject { get; }
         long? SubscriberId { get; }
+        public AddDocument AddDocument { get; }
+        public Document Document { get; }
+        public Acknowledgement Acknowledgement { get; }
     }
 }

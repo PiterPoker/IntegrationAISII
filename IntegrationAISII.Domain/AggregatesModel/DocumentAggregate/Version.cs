@@ -20,7 +20,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate
         private string _author;
         private long? _fileTypeId;
         private FileType _fileType;
+        private long? _documentId;
         private Document _document;
+        private long? _addDocumentId;
         private AddDocument _addDocument;
         private List<Signature> _signatures;
         /// <summary>

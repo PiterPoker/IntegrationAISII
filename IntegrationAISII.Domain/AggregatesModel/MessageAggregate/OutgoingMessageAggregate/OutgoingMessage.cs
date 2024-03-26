@@ -1,6 +1,9 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.OutgoingAcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate.OutgoingAddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.OutgoingDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessageAggregate;
@@ -12,6 +15,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
         private Guid _messageType;
         private Guid _messageGuid;
         private List<Receiver> _receivers;
+        private OutgoingAddDocument _addDocument;
+        private OutgoingDocument _document;
+        private OutgoingAcknowledgement _acknowledgement;
 
         public OutgoingMessage(string subject, long? subscriberId)
             : base(subject, subscriberId)
@@ -24,8 +30,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
         public override Guid MessageGuid { get => _messageGuid; }
         public override Guid MessageType { get => _messageType; }
         public IEnumerable<Receiver> Receivers { get => _receivers; }
-        public OutgoingAddDocument AddDocument { get; private set; }
-        public OutgoingDocument Document { get; private set; }
+        public override OutgoingAddDocument AddDocument { get => _addDocument; }
+        public override OutgoingDocument Document { get => _document; }
+        public override OutgoingAcknowledgement Acknowledgement { get => _acknowledgement; }
 
         public void AddReceiver(IOrganization organization)
         {
@@ -53,7 +60,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
             }
         }
 
-        public void AddMailingTrackForReceiver(long organizationId, TrackingStatuses status)
+        public void AddMailingTrackForReceiver(long organizationId, TrackingStatus status)
         {
             if (organizationId < 0)
                 throw new IntegrationAISIIDomainException($"Invalid {nameof(organizationId)} must not be less zero");
@@ -78,47 +85,47 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
 
         public void SetIncomingDocumnet(string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId, IncomingMessage mainMessage, Message parentMessage)
         {
-            if (Document is null)
+            if (_document is null)
             {
-                Document = new OutgoingDocument(this, idNumber, isConfident, regNumber, pages, regDate, title, documentTypeId);
+                _document = new OutgoingDocument(this, idNumber, isConfident, regNumber, pages, regDate, title, documentTypeId);
             }
             else
             {
-                Document.SetIdNumber(idNumber);
-                Document.SetIsConfident(isConfident);
-                Document.SetRegNumber(regNumber);
-                Document.SetPages(pages);
-                Document.SetRegDate(regDate);
-                Document.SetDocumentTypeId(documentTypeId);
+                _document.SetIdNumber(idNumber);
+                _document.SetIsConfident(isConfident);
+                _document.SetRegNumber(regNumber);
+                _document.SetPages(pages);
+                _document.SetRegDate(regDate);
+                _document.SetDocumentTypeId(documentTypeId);
             }
 
             if (mainMessage is not null)
-                Document.SetMainMessage(mainMessage);
+                _document.SetMainMessage(mainMessage);
 
             if (parentMessage is not null)
-                Document.SetParentMessage(parentMessage);
+                _document.SetParentMessage(parentMessage);
 
-            if (AddDocument is not null)
+            if (_addDocument is not null)
             {
-                AddDocument.SetMainDocument(Document);
+                _addDocument.SetMainDocument(_document);
             }
         }
 
         public void SetIncomingAddDocument(TypeMaterial addType, string content)
         {
-            if (AddDocument is null)
+            if (_addDocument is null)
             {
-                this.AddDocument = new OutgoingAddDocument(this, addType.Id, content);
+                this._addDocument = new OutgoingAddDocument(this, addType.Id, content);
             }
             else
             {
-                AddDocument.SetAddType(addType.Id);
-                AddDocument.SetContent(content);
+                _addDocument.SetAddType(addType.Id);
+                _addDocument.SetContent(content);
             }
 
-            if (this.Document is not null)
+            if (this._document is not null)
             {
-                this.AddDocument.SetMainDocument(Document);
+                this._addDocument.SetMainDocument(_document);
             }
         }
     }

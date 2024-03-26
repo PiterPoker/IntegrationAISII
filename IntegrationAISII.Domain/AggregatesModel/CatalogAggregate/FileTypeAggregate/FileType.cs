@@ -16,7 +16,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.FileTypeAggre
         /// Расширение
         /// </summary>
         public string Extension { get => _extension; }
-        public IEnumerable<FileTypeSync> DocumentTypeSyncs { get => _fileTypeSyncs; }
+        public IEnumerable<FileTypeSync> FileTypeSyncs { get => _fileTypeSyncs; }
         public FileType(Guid objid, DateTime createDate, string name, bool isActual, Guid aisiiId, string extension)
             : base(objid, createDate, name, isActual, aisiiId)
         {

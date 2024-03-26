@@ -9,12 +9,12 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.DocumentTypeA
 {
     public class DocumentTypeSync : CatalogSync
     {
-        private long _documentType;
-        public override long EntitySyncId { get => _documentType; }
+        private long _documentTypeId;
+        public override long EntitySyncId { get => _documentTypeId; }
         public DocumentTypeSync(long entitySyncId, long subscriberId) 
             : base(subscriberId)
         {
-            _documentType = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
+            _documentTypeId = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
         }
     }
 }

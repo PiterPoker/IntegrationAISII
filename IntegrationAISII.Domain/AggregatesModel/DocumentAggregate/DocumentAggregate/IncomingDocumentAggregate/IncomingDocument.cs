@@ -12,7 +12,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
     public class IncomingDocument : Document, IIncomingDocument
     {
         private Guid _documentKind;
+        private long? _parantMessageId;
         private Message _parantMessage;
+        private long? _mainMessageId;
         private OutgoingMessage _mainMessage;
 
         public IncomingDocument(IncomingMessage message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
@@ -25,7 +27,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
 
         public override Message ParentMessage { get => _parantMessage; }
 
-        public override Message MainMessage { get => _mainMessage; }
+        public override OutgoingMessage MainMessage { get => _mainMessage; }
 
         public OutgoingMessage GetMainMessageAsIncomingDocument() => _mainMessage;
 

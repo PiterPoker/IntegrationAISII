@@ -1,4 +1,5 @@
-﻿using IntegrationAISII.Domain.Events.CatalogEvents.OrganizationEvents;
+﻿using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.SedTypeAggregate;
+using IntegrationAISII.Domain.Events.CatalogEvents.OrganizationEvents;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         private string _mail;
         private string _shortName;
         private long _edmsTypeId;
+        private SedType _edmsType;
         private string _street;
         private string _corpus;
         private string _abonentBox;
@@ -45,7 +47,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         /// <summary>
         /// Идентификатор ведомственной СЭД
         /// </summary>
-        public long EdmsTypeId { get => _edmsTypeId; }
+        public SedType EdmsType { get => _edmsType; }
         /// <summary>
         /// Код СОАТО
         /// </summary>
@@ -107,7 +109,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         {
             get => _mail;
         }
-        public IEnumerable<OrganizationSync> DocumentTypeSyncs { get => _organizationSyncs; }
+        public IEnumerable<OrganizationSync> OrganizationSyncs { get => _organizationSyncs; }
         public Organization(Guid objid,
                             DateTime createDate,
                             string name,
@@ -151,7 +153,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         }
 
         public Organization(IOrganization organization)
-            : this(organization.ObjId, organization.CreateDate, organization.Name, organization.IsActual, organization.AisiiId, organization.SmdoCode, organization.Unp, organization.Soato, organization.Email, organization.ShortName, organization.EdmsTypeId, organization.Street, organization.Corpus, organization.AbonentBox, organization.Phone, organization.Fax, organization.Home, organization.PostIndex)
+            : this(organization.ObjId, organization.CreateDate, organization.Name, organization.IsActual, organization.AisiiId, organization.SmdoCode, organization.Unp, organization.Soato, organization.Email, organization.ShortName, organization.EdmsType.Id, organization.Street, organization.Corpus, organization.AbonentBox, organization.Phone, organization.Fax, organization.Home, organization.PostIndex)
         {
         }
 

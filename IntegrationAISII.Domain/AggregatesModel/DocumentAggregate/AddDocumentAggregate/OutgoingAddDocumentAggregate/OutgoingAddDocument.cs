@@ -13,7 +13,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
     {
         private Guid _addDocumentType;
         private Guid _addDocumentGuid;
+        private long? _mainDocumentId;
         private OutgoingDocument _mainDocument;
+        private long _outgoingMessageId;
         private Message _outgoingMessage;
 
         public OutgoingAddDocument(Message message, int addTypeId, string content) : base(message, addTypeId, content)
@@ -25,7 +27,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         public override Guid AddDocumentType { get => _addDocumentType; }
         public override Guid AddDocumentGuid { get => _addDocumentGuid; }
 
-        public override Document MainDocument { get => _mainDocument; }
+        public override OutgoingDocument MainDocument { get => _mainDocument; }
 
         public override Message Message { get => _outgoingMessage; }
 

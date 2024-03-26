@@ -18,13 +18,14 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
     {
         private string _idNumber;
         private long _documentTypeId;
+        private DocumentType _documentType;
         private bool _isConfident;
         private string _regNumber;
         private int _pages;
         private DateTime _regDate;
         private Guid _documentGuid;
         private string _title;
-        private long _versionId;
+        private long _messageId;
         private Message _message;
 
         protected Document(Message message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
@@ -80,8 +81,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         /// </summary>
         public DocumentType DocumentType
         {
-            get;
-            private set;
+            get => _documentType;
         }
         /// <summary>
         /// Уникальный служебный идентификационный номер документа в передающей системе

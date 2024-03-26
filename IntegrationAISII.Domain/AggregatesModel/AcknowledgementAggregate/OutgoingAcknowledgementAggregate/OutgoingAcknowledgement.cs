@@ -1,6 +1,7 @@
 ﻿using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate.OutgoingMailingTrackAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MessageAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Outgo
     {
         private Guid _acknowledgementType;
         private Guid _ackMessageGuid;
-        private Message _message;
+        private OutgoingMessage _message;
         private List<OutgoingMailingTrack> _mailingTracks;
 
-        public OutgoingAcknowledgement(Message message, string subject, string errorText, int errorCode)
+        public OutgoingAcknowledgement(OutgoingMessage message, string subject, string errorText, int errorCode)
             : base(subject, errorText, errorCode)
         {
             _message = message;
@@ -30,7 +31,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Outgo
 
         public override Guid AcknowledgementType { get => _acknowledgementType; }
 
-        public override Message Message { get => _message; }
+        public override OutgoingMessage Message { get => _message; }
         /// <summary>
         /// Список рассылки
         /// </summary>
@@ -40,7 +41,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Outgo
         /// </summary>
         public override Guid AckMessageGuid { get => _ackMessageGuid; }
 
-        public void AddMailingTrack(TrackingStatuses status)
+        public void AddMailingTrack(TrackingStatus status)
         {
             if (_mailingTracks is null)
                 throw new ArgumentNullException(nameof(_mailingTracks));

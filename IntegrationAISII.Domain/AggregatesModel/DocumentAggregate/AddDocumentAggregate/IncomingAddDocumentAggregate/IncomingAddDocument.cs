@@ -12,8 +12,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
 {
     public class IncomingAddDocument : AddDocument, IIncomingAddDocument
     {
+        private long? _mainDocumentId;
         private IncomingDocument _mainDocument;
         private Guid _addDocumentType;
+        private long _incomingMessageId;
         private IncomingMessage _incomingMessage;
 
         protected IncomingAddDocument(Guid addDocumentGuid, int addTypeId, string content) 
@@ -30,9 +32,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
 
         public override Guid AddDocumentType { get => _addDocumentType; }
 
-        public override Document MainDocument { get => _mainDocument; }
+        public override IncomingDocument MainDocument { get => _mainDocument; }
 
-        public override Message Message { get => _incomingMessage; }
+        public override IncomingMessage Message { get => _incomingMessage; }
 
         public void SetMainDocument(IncomingDocument document)
         {

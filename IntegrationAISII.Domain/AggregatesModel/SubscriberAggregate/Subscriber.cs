@@ -12,6 +12,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.SubscriberAggregate
     {
         private string _email;
         private string _login;
+        private long? _organizationId;
         private Organization _organization;
         private string _password;
         private Guid _subscriberGuid;
