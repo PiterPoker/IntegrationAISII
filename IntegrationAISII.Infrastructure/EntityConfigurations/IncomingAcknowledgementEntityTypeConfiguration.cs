@@ -88,9 +88,9 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                .HasForeignKey("AcknowledgementId")
                .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasOne(b => b.Message)
+            /*builder.HasOne(b => b.Message)
                .WithOne()
-               .HasForeignKey("AcknowledgementId");
+               .HasForeignKey("AcknowledgementId");*/
 
             builder.HasOne(p => p.AckType)
                 .WithMany()

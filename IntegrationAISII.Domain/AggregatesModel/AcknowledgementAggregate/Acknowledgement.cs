@@ -43,7 +43,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         /// <summary>
         /// Сообщение по которому создается уведомление
         /// </summary>
-        public abstract Message Message { get; }
+        //public abstract Message Message { get; }
         /// <summary>
         /// Тип уведомления
         /// </summary>

@@ -16,6 +16,6 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
         long? SubscriberId { get; }
         public AddDocument AddDocument { get; }
         public Document Document { get; }
-        public Acknowledgement Acknowledgement { get; }
+        //public Acknowledgement Acknowledgement { get; }
     }
 }

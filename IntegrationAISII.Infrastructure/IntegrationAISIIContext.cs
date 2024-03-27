@@ -65,7 +65,10 @@ namespace IntegrationAISII.Infrastructure
 
         private IDbContextTransaction _currentTransaction;
 
-        public IntegrationAISIIContext(DbContextOptions<IntegrationAISIIContext> options) : base(options) { }
+        public IntegrationAISIIContext(DbContextOptions<IntegrationAISIIContext> options) : base(options) 
+        {
+            Database.EnsureCreated();
+        }
 
         public IDbContextTransaction GetCurrentTransaction() => _currentTransaction;
 
@@ -83,6 +86,7 @@ namespace IntegrationAISII.Infrastructure
         {
             modelBuilder.ApplyConfiguration(new ClientRequestEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingAcknowledgementEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new IncomingMessageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingAcknowledgementEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new AckStatusEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new NotificationTypeEntityTypeConfiguration());
@@ -92,6 +96,8 @@ namespace IntegrationAISII.Infrastructure
             modelBuilder.ApplyConfiguration(new FileTypeSyncEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OrganizationEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OrganizationSyncEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new SedTypeEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new SedTypeSyncEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SignatureEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new VersionEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingDocumentEntityTypeConfiguration());
@@ -102,9 +108,8 @@ namespace IntegrationAISII.Infrastructure
             modelBuilder.ApplyConfiguration(new TrackingStatusEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingMailingTrackEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingMailingTrackEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new IncomingMessageEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new OutgoingMessageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new ReceiverEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new OutgoingMessageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SubscriberEntityTypeConfiguration());
         }
 

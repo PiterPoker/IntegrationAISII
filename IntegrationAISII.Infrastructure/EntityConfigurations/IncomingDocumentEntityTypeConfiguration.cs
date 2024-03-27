@@ -84,24 +84,28 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired(false);
 
             builder
-                .Property<long?>("_documentTypeId")
+                .Property<long?>("_mainMessageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MainMessageId")
                 .IsRequired(false);
 
             builder
+                .Property<long>("_messageId")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("MessageId")
+                .IsRequired();
+
+            builder
                 .HasOne(u => u.ParentMessage)
                 .WithOne()
                 .HasForeignKey<IncomingDocument>("_parantMessageId")
-                .IsRequired(false)
-                .OnDelete(DeleteBehavior.ClientCascade);
+                .IsRequired(false);
 
             builder
                 .HasOne(u => u.MainMessage)
                 .WithOne()
                 .HasForeignKey<IncomingDocument>("_mainMessageId")
-                .IsRequired(false)
-                .OnDelete(DeleteBehavior.ClientCascade);
+                .IsRequired(false);
 
         }
     }

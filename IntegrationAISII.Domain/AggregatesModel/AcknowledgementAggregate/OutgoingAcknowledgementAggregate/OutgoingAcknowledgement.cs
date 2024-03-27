@@ -31,7 +31,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Outgo
 
         public override Guid AcknowledgementType { get => _acknowledgementType; }
 
-        public override OutgoingMessage Message { get => _message; }
+        public OutgoingMessage Message { get => _message; }
         /// <summary>
         /// Список рассылки
         /// </summary>

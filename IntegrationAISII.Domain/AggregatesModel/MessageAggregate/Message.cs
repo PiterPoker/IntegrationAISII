@@ -50,7 +50,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
         public long? SubscriberId { get => _subscriberId; }
         public abstract AddDocument AddDocument { get; }
         public abstract Document Document { get; }
-        public abstract Acknowledgement Acknowledgement { get; }
+        //public Acknowledgement Acknowledgement { get; }
 
         protected Message(Guid packageId,
                         string subject,
@@ -70,7 +70,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
             _subscriberId = subscriberId;
         }
 
-        public Message(IMessage message)
+        protected Message(IMessage message)
             : this(message.PackageId,
                 message.Subject,
                 message.SubscriberId)

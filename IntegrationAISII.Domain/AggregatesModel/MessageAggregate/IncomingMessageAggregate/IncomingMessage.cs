@@ -47,7 +47,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
         public Organization Sender { get => _sender; }
         public override AddDocument AddDocument { get => _addDocument; }
         public override Document Document { get => _document;  }
-        public override Acknowledgement Acknowledgement { get => _acknowledgement; }
+        public IncomingAcknowledgement Acknowledgement { get => _acknowledgement; }
         public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
 
 

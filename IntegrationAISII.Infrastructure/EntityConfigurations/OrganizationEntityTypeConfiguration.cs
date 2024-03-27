@@ -132,8 +132,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
 
             builder.HasOne(b => b.EdmsType)
                .WithOne()
-               .HasForeignKey("_edmsTypeId")
-               .OnDelete(DeleteBehavior.Cascade);
+               .HasForeignKey<Organization>("_edmsTypeId");
 
             var navigation = builder.Metadata.FindNavigation(nameof(Organization.OrganizationSyncs));
 

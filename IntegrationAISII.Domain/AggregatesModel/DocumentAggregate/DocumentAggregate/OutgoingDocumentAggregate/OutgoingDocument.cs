@@ -13,7 +13,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
     {
         private Guid _documentKind;
         private Guid _documentGuid;
+        private long? _parantMessageId;
         private Message _parantMessage;
+        private long? _mainMessageId;
         private IncomingMessage _mainMessage;
 
         public OutgoingDocument(OutgoingMessage message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, string title, long documentTypeId)

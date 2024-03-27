@@ -36,7 +36,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         /// <summary>
         /// Сообщение по которому создается уведомление
         /// </summary>
-        Message Message { get; }
+        //Message Message { get; }
         /// <summary>
         /// ID пакета отправки в АИС МВ
         /// </summary>

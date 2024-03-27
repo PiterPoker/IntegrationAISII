@@ -33,7 +33,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Incom
 
         public override Guid AcknowledgementType { get => _acknowledgementType; }
 
-        public override IncomingMessage Message { get => _message; }
+        public IncomingMessage Message { get => _message; }
         public OutgoingMessage OutgoingMessage { get => _outgoingMessage; }
 
         public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }

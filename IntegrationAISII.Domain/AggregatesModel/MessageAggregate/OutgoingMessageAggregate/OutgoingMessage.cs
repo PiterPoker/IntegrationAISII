@@ -30,9 +30,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
         public override Guid MessageGuid { get => _messageGuid; }
         public override Guid MessageType { get => _messageType; }
         public IEnumerable<Receiver> Receivers { get => _receivers; }
+        //TODO: Убрать из абстрактного класса и оставить только здесь (из-за таких строк конфликт происходит конфликт в БД)
         public override OutgoingAddDocument AddDocument { get => _addDocument; }
         public override OutgoingDocument Document { get => _document; }
-        public override OutgoingAcknowledgement Acknowledgement { get => _acknowledgement; }
+        public OutgoingAcknowledgement Acknowledgement { get => _acknowledgement; }
 
         public void AddReceiver(IOrganization organization)
         {
