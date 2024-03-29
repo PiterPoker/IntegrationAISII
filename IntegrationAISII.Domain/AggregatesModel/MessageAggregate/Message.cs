@@ -1,6 +1,7 @@
 ﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate;
 using IntegrationAISII.Domain.SeedWork;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Xml.Linq;
 
 namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
 {
-    public abstract class Message : Entity, IAggregateRoot, IMessage
+    public class Message : Entity, IAggregateRoot, IMessage
     {
         private DateTime _createDate;
         private Guid _messageGuid;
@@ -27,7 +28,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
         /// <summary>
         /// Тип сообщеия
         /// </summary>
-        public abstract Guid MessageType { get; }
+        public virtual Guid MessageType { get; }
         /// <summary>
         /// Идентификатор сообщения в АИС МВ
         /// </summary>
@@ -48,9 +49,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
         /// Идентификатор абонента-отправителя исх. сообщения/получателя вх. сообщения
         /// </summary>
         public long? SubscriberId { get => _subscriberId; }
-        public abstract AddDocument AddDocument { get; }
-        public abstract Document Document { get; }
-        //public Acknowledgement Acknowledgement { get; }
+        public virtual AddDocument AddDocument { get; }
+        public virtual Document Document { get; }
+        public virtual Acknowledgement Acknowledgement { get; }
+        //public virtual IEnumerable<MailingTrack> MailingTracks { get; }
 
         protected Message(Guid packageId,
                         string subject,
@@ -76,6 +78,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate
                 message.SubscriberId)
         {
         }
+
+        public Message() { }
 
         public void SetPackageId(Guid packageId)
         {

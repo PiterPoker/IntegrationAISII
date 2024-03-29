@@ -14,7 +14,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<OutgoingAcknowledgement> builder)
         {
-            builder.ToTable("acknowledgements", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            /*builder.ToTable("acknowledgements", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -81,7 +81,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .Property<int>("_statusId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("StatusId")
-                .IsRequired();
+                .IsRequired();*/
 
             builder.HasMany(b => b.MailingTracks)
                .WithOne()
@@ -92,13 +92,13 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                .WithOne()
                .HasForeignKey("AcknowledgementId");*/
 
-            builder.HasOne(p => p.AckType)
+            /*builder.HasOne(p => p.AckType)
                 .WithMany()
                 .HasForeignKey("AckTypeId");
 
             builder.HasOne(p => p.Status)
                 .WithMany()
-                .HasForeignKey("StatusId");
+                .HasForeignKey("StatusId");*/
 
             var navigation = builder.Metadata.FindNavigation(nameof(OutgoingAcknowledgement.MailingTracks));
 

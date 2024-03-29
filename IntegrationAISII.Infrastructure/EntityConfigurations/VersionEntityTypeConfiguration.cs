@@ -48,17 +48,11 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasColumnName("FileTypeId")
                 .IsRequired();
 
-            builder
+            /*builder
                 .Property<long?>("_documentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("DocumentId")
-                .IsRequired(false);
-
-            builder
-                .Property<long?>("_addDocumentId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("AddDocumentId")
-                .IsRequired(false);
+                .IsRequired(false);*/
 
             builder
                 .HasMany(b => b.Signatures)

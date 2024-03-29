@@ -14,7 +14,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<IncomingAddDocument> builder)
         {
-            builder.ToTable("adddocuments", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            /*builder.ToTable("adddocuments", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -57,7 +57,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .Property<long?>("_mainDocumentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MainDocumentId")
-                .IsRequired();
+                .IsRequired();*/
 
             builder
                 .HasOne(u => u.MainDocument)
@@ -68,13 +68,13 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder
                 .HasOne(u => u.Message)
                 .WithOne()
-                .HasForeignKey<IncomingAddDocument>("_incomingMessageId")
+                .HasForeignKey<IncomingAddDocument>("_messageId")
                 .IsRequired();
 
             builder
                 .HasMany(b => b.Versions)
                 .WithOne()
-                .HasForeignKey("VersionId")
+                .HasForeignKey("AddDocumentId")
                 .OnDelete(DeleteBehavior.Cascade);
 
             var versions = builder.Metadata.FindNavigation(nameof(IncomingAddDocument.Versions));

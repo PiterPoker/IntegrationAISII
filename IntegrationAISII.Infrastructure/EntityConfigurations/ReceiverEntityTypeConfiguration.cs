@@ -29,16 +29,16 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasColumnName("Organization")
                 .IsRequired();
 
-            builder
+            /*builder
                 .Property<long>("_messageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageId")
-                .IsRequired();
+                .IsRequired();*/
 
             builder
                 .HasMany(b => b.MailingTracks)
                 .WithOne()
-                .HasForeignKey("MessageId")
+                .HasForeignKey("ReceiverId")
                 .OnDelete(DeleteBehavior.Cascade);
 
             var mailingTracks = builder.Metadata.FindNavigation(nameof(Receiver.MailingTracks));

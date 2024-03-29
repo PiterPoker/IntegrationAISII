@@ -11,10 +11,13 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.SedTypeAggreg
     {
         private long _sedTypeSyncId;
 
-        public override long EntitySyncId { get => _sedTypeSyncId; }
+        public override long EntitySyncId { get; set; }
         public SedTypeSync(long entitySyncId, long subscriberId) : base(subscriberId)
         {
             _sedTypeSyncId = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
+        }
+        public SedTypeSync() : base()
+        {
         }
     }
 }

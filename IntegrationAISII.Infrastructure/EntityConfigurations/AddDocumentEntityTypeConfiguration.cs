@@ -1,4 +1,6 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate.OutgoingAddDocumentAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate.IncomingAddDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate.OutgoingAddDocumentAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -9,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace IntegrationAISII.Infrastructure.EntityConfigurations
 {
-    internal class OutgoingAddDocumentEntityTypeConfiguration
-        : IEntityTypeConfiguration<OutgoingAddDocument>
+    internal class AddDocumentEntityTypeConfiguration
+        : IEntityTypeConfiguration<AddDocument>
     {
-        public void Configure(EntityTypeBuilder<OutgoingAddDocument> builder)
+        public void Configure(EntityTypeBuilder<AddDocument> builder)
         {
-            /*builder.ToTable("adddocuments", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            builder.ToTable("adddocuments", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -24,10 +26,20 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("adddocuments_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
+                .HasDiscriminator<Guid>("AddDocumentType")
+                .HasValue<AddDocument>(Guid.Parse("0aa82b37-a993-4efd-bdc4-63ff55df850f"))
+                .HasValue<IncomingAddDocument>(Guid.Parse("cae8ef83-8c91-46b1-a3c0-75a5fecaf624"));
+
+            builder
+                .HasDiscriminator<Guid>("AddDocumentType")
+                .HasValue<AddDocument>(Guid.Parse("0aa82b37-a993-4efd-bdc4-63ff55df850f"))
+                .HasValue<OutgoingAddDocument>(Guid.Parse("3d4cba68-ba9e-4b4e-ad61-487d64339e95"));
+
+            /*builder
                 .Property<Guid>("_addDocumentType")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Discriminator")
-                .IsRequired();
+                .IsRequired();*/
 
             builder
                 .Property<Guid>("_addDocumentGuid")
@@ -48,7 +60,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();
 
             builder
-                .Property<long>("_outgoingMessageId")
+                .Property<long>("_messageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageId")
                 .IsRequired();
@@ -57,29 +69,13 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .Property<long?>("_mainDocumentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MainDocumentId")
-                .IsRequired();*/
-
-            builder
-                .HasOne(u => u.MainDocument)
-                .WithOne()
-                .HasForeignKey<OutgoingAddDocument>("_mainDocumentId")
                 .IsRequired(false);
 
-            builder
-                .HasOne(u => u.Message)
-                .WithOne()
-                .HasForeignKey<OutgoingAddDocument>("_messageId")
-                .IsRequired();
-
-            builder
+            /*builder
                 .HasMany(b => b.Versions)
                 .WithOne()
-                .HasForeignKey("AddDocumentId")
-                .OnDelete(DeleteBehavior.Cascade);
-
-            var versions = builder.Metadata.FindNavigation(nameof(OutgoingAddDocument.Versions));
-
-            versions.SetPropertyAccessMode(PropertyAccessMode.Field);
+                .HasForeignKey("VersionId")
+                .OnDelete(DeleteBehavior.Cascade);*/
         }
     }
 }

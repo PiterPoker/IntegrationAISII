@@ -35,6 +35,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.SedTypeAggreg
             : this(sedType.ObjId, sedType.CreateDate, sedType.Name, sedType.IsActual, sedType.AisiiId, sedType.Version, sedType.Description)
         {
         }
+        public SedType() 
+            : base()
+        {
+        }
 
         public override void EntitySync(long subscriberId)
         {

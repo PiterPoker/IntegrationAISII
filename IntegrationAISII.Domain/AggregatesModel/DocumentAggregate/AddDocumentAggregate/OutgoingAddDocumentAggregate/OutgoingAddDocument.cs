@@ -1,6 +1,7 @@
 ﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.OutgoingDocumentAggregate;
 using IntegrationAISII.Domain.AggregatesModel.MessageAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +17,20 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         private long? _mainDocumentId;
         private OutgoingDocument _mainDocument;
         private long _outgoingMessageId;
-        private Message _outgoingMessage;
+        private OutgoingMessage _message;
 
-        public OutgoingAddDocument(Message message, int addTypeId, string content) : base(message, addTypeId, content)
+        public OutgoingAddDocument(OutgoingMessage message, int addTypeId, string content) : base(addTypeId, content)
+        {
+            _message = message;
+            _addDocumentGuid = Guid.NewGuid();
+            _addDocumentType = Guid.Parse("3d4cba68-ba9e-4b4e-ad61-487d64339e95");
+        }
+
+        public OutgoingAddDocument()
+            : base()
         {
             _addDocumentGuid = Guid.NewGuid();
-            _addDocumentType = Guid.Parse("cae8ef83-8c91-46b1-a3c0-75a5fecaf624");
+            _addDocumentType = Guid.Parse("3d4cba68-ba9e-4b4e-ad61-487d64339e95");
         }
 
         public override Guid AddDocumentType { get => _addDocumentType; }
@@ -29,7 +38,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
 
         public override OutgoingDocument MainDocument { get => _mainDocument; }
 
-        public override Message Message { get => _outgoingMessage; }
+        public override OutgoingMessage Message { get => _message; }
 
         public void SetMainDocument(OutgoingDocument document)
         {

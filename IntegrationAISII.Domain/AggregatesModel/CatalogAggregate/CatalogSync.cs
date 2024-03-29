@@ -13,7 +13,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate
         /// <summary>
         /// Запись справочника «Типы файлов»
         /// </summary>
-        public abstract long EntitySyncId { get; }
+        public abstract long EntitySyncId { get; set; }
         /// <summary>
         /// Абонент коннектора
         /// </summary>
@@ -24,8 +24,13 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate
         public bool IsSync { get => _isSync; }
 
         protected CatalogSync(long subscriberId)
+            : this()
         {
             _subscriberId = subscriberId;
+        }
+
+        protected CatalogSync()
+        {
             _isSync = false;
         }
 

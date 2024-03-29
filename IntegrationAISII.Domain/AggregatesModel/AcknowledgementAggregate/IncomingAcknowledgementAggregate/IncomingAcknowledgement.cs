@@ -16,14 +16,25 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Incom
         private List<IncomingMailingTrack> _mailingTracks;
         private IncomingMessage _message;
         private long? _outgoingMessageId;
-        private OutgoingMessage _outgoingMessage;
+        private long? _responseToId;
+        private OutgoingMessage _responseTo;
         private Guid _acknowledgementType;
 
         public IncomingAcknowledgement(IncomingMessage message, OutgoingMessage outgoingMessage, Guid ackMessageGuid, string subject, string errorText, int errorCode)
             : base(ackMessageGuid, subject, errorText, errorCode)
         {
-            _outgoingMessage = outgoingMessage ?? throw new ArgumentNullException(nameof(outgoingMessage));
+            _responseTo = outgoingMessage ?? throw new ArgumentNullException(nameof(outgoingMessage));
             _message = message;
+            _acknowledgementType = Guid.Parse("597cf4f2-99b6-427a-b3f9-4b3f6eed3b6a");
+            _mailingTracks = new List<IncomingMailingTrack>()
+            {
+                new IncomingMailingTrack(this, DateTime.UtcNow),
+            };
+        }
+
+        public IncomingAcknowledgement()
+            : base()
+        {
             _acknowledgementType = Guid.Parse("597cf4f2-99b6-427a-b3f9-4b3f6eed3b6a");
             _mailingTracks = new List<IncomingMailingTrack>()
             {
@@ -33,10 +44,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Incom
 
         public override Guid AcknowledgementType { get => _acknowledgementType; }
 
-        public IncomingMessage Message { get => _message; }
-        public OutgoingMessage OutgoingMessage { get => _outgoingMessage; }
+        public override IncomingMessage Message { get => _message; }
+        public override OutgoingMessage ResponseTo { get => _responseTo; }
 
-        public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
+        public override IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
 
         public void AddMailingTrack(TrackingStatus status)
         {

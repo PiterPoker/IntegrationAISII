@@ -67,6 +67,7 @@ namespace IntegrationAISII.Infrastructure
 
         public IntegrationAISIIContext(DbContextOptions<IntegrationAISIIContext> options) : base(options) 
         {
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
@@ -85,8 +86,11 @@ namespace IntegrationAISII.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ClientRequestEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new IncomingAcknowledgementEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new MessageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingMessageEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new OutgoingMessageEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new AcknowledgementEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new IncomingAcknowledgementEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingAcknowledgementEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new AckStatusEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new NotificationTypeEntityTypeConfiguration());
@@ -100,16 +104,18 @@ namespace IntegrationAISII.Infrastructure
             modelBuilder.ApplyConfiguration(new SedTypeSyncEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SignatureEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new VersionEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new DocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingDocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingDocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new TypeMaterialEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new AddDocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingAddDocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingAddDocumentEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new TrackingStatusEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new MailingTrackEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new IncomingMailingTrackEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new OutgoingMailingTrackEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new ReceiverEntityTypeConfiguration());
-            modelBuilder.ApplyConfiguration(new OutgoingMessageEntityTypeConfiguration());
             modelBuilder.ApplyConfiguration(new SubscriberEntityTypeConfiguration());
         }
 

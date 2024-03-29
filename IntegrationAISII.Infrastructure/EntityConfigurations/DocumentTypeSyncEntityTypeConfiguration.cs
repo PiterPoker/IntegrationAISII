@@ -24,12 +24,6 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("documenttypesyncs_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<long>("_documentTypeId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("EntitySyncId")
-                .IsRequired();
-
-            builder
                 .Property<long>("_subscriberId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SubscriberId")

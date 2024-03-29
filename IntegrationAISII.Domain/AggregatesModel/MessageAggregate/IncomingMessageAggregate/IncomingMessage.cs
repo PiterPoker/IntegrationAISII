@@ -43,11 +43,16 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
         {
         }
 
+        public IncomingMessage()
+        {
+            _mailingTracks = new List<IncomingMailingTrack>();
+        }
+
         public override Guid MessageType { get => _messageType; }
         public Organization Sender { get => _sender; }
-        public override AddDocument AddDocument { get => _addDocument; }
-        public override Document Document { get => _document;  }
-        public IncomingAcknowledgement Acknowledgement { get => _acknowledgement; }
+        public override IncomingAddDocument AddDocument { get => _addDocument; }
+        public override IncomingDocument Document { get => _document;  }
+        public override IncomingAcknowledgement Acknowledgement { get => _acknowledgement; }
         public IEnumerable<IncomingMailingTrack> MailingTracks { get => _mailingTracks; }
 
 

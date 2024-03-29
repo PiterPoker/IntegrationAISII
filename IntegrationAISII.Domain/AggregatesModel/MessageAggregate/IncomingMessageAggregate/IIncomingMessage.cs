@@ -4,6 +4,6 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessa
 {
     public interface IIncomingMessage : IMessage
     {
-        public Organization Sender { get; }
+        Organization Sender { get; }
     }
 }

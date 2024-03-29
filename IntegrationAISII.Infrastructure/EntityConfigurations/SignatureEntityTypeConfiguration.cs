@@ -40,12 +40,6 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Value")
                 .IsRequired();
-
-            builder
-                .Property<long>("_versionId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("VersionId")
-                .IsRequired();
         }
     }
 }

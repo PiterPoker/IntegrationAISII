@@ -12,13 +12,21 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
     public class IncomingDocument : Document, IIncomingDocument
     {
         private Guid _documentKind;
+        private long _messageId;
+        private IncomingMessage _message;
         private long? _parantMessageId;
         private Message _parantMessage;
         private long? _mainMessageId;
         private OutgoingMessage _mainMessage;
 
         public IncomingDocument(IncomingMessage message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
-            : base(message, idNumber, isConfident, regNumber, pages, regDate, documentGuid, title, documentTypeId)
+            : base(idNumber, isConfident, regNumber, pages, regDate, documentGuid, title, documentTypeId)
+        {
+            this._documentKind = Guid.Parse("9dc4f0a7-4983-491a-9fe7-04abb0699692");
+        }
+
+        public IncomingDocument()
+            : base()
         {
             this._documentKind = Guid.Parse("9dc4f0a7-4983-491a-9fe7-04abb0699692");
         }
@@ -28,6 +36,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         public override Message ParentMessage { get => _parantMessage; }
 
         public override OutgoingMessage MainMessage { get => _mainMessage; }
+        public override Message Message { get => _message; }
 
         public OutgoingMessage GetMainMessageAsIncomingDocument() => _mainMessage;
 

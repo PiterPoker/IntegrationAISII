@@ -30,7 +30,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();
 
             builder
-                .Property<long?>("_organizationId")
+                .Property<long>("_organizationId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Organization")
                 .IsRequired();

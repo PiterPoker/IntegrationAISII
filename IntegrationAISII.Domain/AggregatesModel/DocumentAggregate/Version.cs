@@ -53,6 +53,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate
         {
             get;
         }
+        public Document Document
+        {
+            get => _document;
+        }
         /// <summary>
         /// Список подписей
         /// </summary>
@@ -68,11 +72,15 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate
             _addDocument = addDocument is not null ? addDocument : throw new ArgumentNullException(nameof(addDocument));
         }
         protected Version(string fileName, string noname, string author, long? fileTypeId)
+            : this()
         {            
             this.SetFileName(fileName);
             this.SetNoname(noname);
             this.SetAuthor(author);
             this.SetFileTypeId(fileTypeId);
+        }
+        public Version()
+        {
             _signatures = new List<Signature>();
         }
 

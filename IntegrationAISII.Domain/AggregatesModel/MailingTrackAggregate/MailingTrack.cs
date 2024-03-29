@@ -7,16 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate;
 
 namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
 {
-    public abstract class MailingTrack : Entity, IAggregateRoot, IMailingTrack
+    public class MailingTrack : Entity, IAggregateRoot, IMailingTrack
     {
         /// <summary>
         /// Дата трека
         /// </summary>
         public DateTime CreateDate { get => _createDate; }
-        public abstract Acknowledgement Acknowledgement { get; }
+        public virtual Acknowledgement Acknowledgement { get; }
+        //public virtual Message Message { get; }
         /// <summary>
         /// Описание трека сообщения
         /// </summary>
@@ -47,7 +49,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.MailingTrackAggregate
         /// </summary>
         public TrackingStatus Value { get => TrackingStatus.From(_statusId); }
 
-        public abstract Guid TypeGuid { get; }
+        public virtual Guid TypeGuid { get; }
 
         public void ChangeStatus(TrackingStatus status)
         {

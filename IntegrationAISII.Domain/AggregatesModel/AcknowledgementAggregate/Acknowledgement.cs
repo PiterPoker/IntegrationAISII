@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
 {
-    public abstract class Acknowledgement : Entity, IAggregateRoot, IAcknowledgement
+    public class Acknowledgement : Entity, IAggregateRoot, IAcknowledgement
     {
         private int _ackTypeId;
         public int _statusId;
@@ -28,22 +28,31 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         }
 
         protected Acknowledgement(string subject, string errorText, int errorCode)
+            : this()
         {
-            _statusId = AckStatus.SendingWaiting.Id;
-            _createDate = DateTime.UtcNow;
-            _isLocked = false;
             _subject = subject ?? throw new ArgumentNullException(nameof(subject));
             _errorText = errorText ?? throw new ArgumentNullException(nameof(errorText));
             _errorCode = errorCode;
         }
+
+        protected Acknowledgement()
+        {
+            _statusId = AckStatus.SendingWaiting.Id;
+            _createDate = DateTime.UtcNow;
+            _isLocked = false;
+        }
         /// <summary>
         /// Тип уведомления
         /// </summary>
-        public abstract Guid AcknowledgementType { get; }
+        public virtual Guid AcknowledgementType { get; }
+        /// <summary>
+        /// Сообщение уведомление
+        /// </summary>
+        public virtual Message Message { get; }
         /// <summary>
         /// Сообщение по которому создается уведомление
         /// </summary>
-        //public abstract Message Message { get; }
+        public virtual Message ResponseTo { get; }
         /// <summary>
         /// Тип уведомления
         /// </summary>
@@ -81,6 +90,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         {
             get => _subject;
         }
+        public virtual IEnumerable<MailingTrack> MailingTracks { get; }
         /// <summary>
         /// ID пакета отправки в АИС МВ
         /// </summary>

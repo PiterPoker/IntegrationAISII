@@ -1,4 +1,6 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.IncomingAcknowledgementAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.IncomingAcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.OutgoingAcknowledgementAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -9,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace IntegrationAISII.Infrastructure.EntityConfigurations
 {
-    internal class IncomingAcknowledgementEntityTypeConfiguration
-        : IEntityTypeConfiguration<IncomingAcknowledgement>
+    internal class AcknowledgementEntityTypeConfiguration
+        : IEntityTypeConfiguration<Acknowledgement>
     {
-        public void Configure(EntityTypeBuilder<IncomingAcknowledgement> builder)
+        public void Configure(EntityTypeBuilder<Acknowledgement> builder)
         {
-            /*builder.ToTable("acknowledgements", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            builder.ToTable("acknowledgements", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -24,16 +26,26 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("acknowledgements_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
+                .HasDiscriminator<Guid>("MessageType")
+                .HasValue<Acknowledgement>(Guid.Parse("a23d0fe2-f362-4f9b-b7a4-bc01bafd7940"))
+                .HasValue<IncomingAcknowledgement>(Guid.Parse("597cf4f2-99b6-427a-b3f9-4b3f6eed3b6a"));
+
+            builder
+                .HasDiscriminator<Guid>("MessageType")
+                .HasValue<Acknowledgement>(Guid.Parse("a23d0fe2-f362-4f9b-b7a4-bc01bafd7940"))
+                .HasValue<OutgoingAcknowledgement>(Guid.Parse("d534e33d-ff98-4960-917a-4b8731eea3fd"));
+
+            builder
                 .Property<Guid>("_ackMessageGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AckMessageGuid")
                 .IsRequired();
 
-            builder
+            /*builder
                 .Property<Guid>("_acknowledgementType")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Discriminator")
-                .IsRequired();
+                .IsRequired();*/
 
             builder
                 .Property<DateTime>("_createDate")
@@ -81,28 +93,19 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .Property<int>("_statusId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("StatusId")
-                .IsRequired();*/
+                .IsRequired();
 
-            builder.HasMany(b => b.MailingTracks)
-               .WithOne()
-               .HasForeignKey("AcknowledgementId")
-               .OnDelete(DeleteBehavior.Cascade);
+            builder
+                .Property<long>("_message")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("Message")
+                .IsRequired();
 
-            /*builder.HasOne(b => b.Message)
-               .WithOne()
-               .HasForeignKey("AcknowledgementId");*/
-
-            /*builder.HasOne(p => p.AckType)
-                .WithMany()
-                .HasForeignKey("AckTypeId");
-
-            builder.HasOne(p => p.Status)
-                .WithMany()
-                .HasForeignKey("StatusId");*/
-
-            var navigation = builder.Metadata.FindNavigation(nameof(IncomingAcknowledgement.MailingTracks));
-
-            navigation.SetPropertyAccessMode(PropertyAccessMode.Field);
+            builder
+                .Property<long?>("_responseToId")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("ResponseTo")
+                .IsRequired(false);
         }
     }
 }

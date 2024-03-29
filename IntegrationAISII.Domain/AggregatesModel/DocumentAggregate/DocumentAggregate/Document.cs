@@ -14,8 +14,9 @@ using IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationAggre
 
 namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate
 {
-    public abstract class Document : Entity, IAggregateRoot, IDocument
+    public class Document : Entity, IAggregateRoot, IDocument
     {
+        private List<Version> _versions;
         private string _idNumber;
         private long _documentTypeId;
         private DocumentType _documentType;
@@ -25,18 +26,16 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         private DateTime _regDate;
         private Guid _documentGuid;
         private string _title;
-        private long _messageId;
-        private Message _message;
 
-        protected Document(Message message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
-            : this(message, idNumber, isConfident, regNumber, pages, regDate, title, documentTypeId)
+        protected Document(string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, Guid documentGuid, string title, long documentTypeId)
+            : this(idNumber, isConfident, regNumber, pages, regDate, title, documentTypeId)
         {
             this.SetDocumentGuid(documentGuid);
         }
 
-        protected Document(Message message, string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, string title, long documentTypeId)
+        protected Document(string idNumber, bool isConfident, string regNumber, int pages, DateTime regDate, string title, long documentTypeId)
+            : this()
         {
-            this._message = message;
             this.SetIdNumber(idNumber);
             this.SetIsConfident(isConfident);
             this.SetRegNumber(regNumber);
@@ -44,6 +43,11 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
             this.SetRegDate(regDate);
             this.SetTitle(title);
             this.SetDocumentTypeId(documentTypeId);
+        }
+
+        public Document()
+        {
+            _versions = new List<Version>();
         }
 
         public void SetDocumentTypeId(long documentTypeId)
@@ -109,19 +113,19 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         /// <summary>
         /// Регистрационный идентификатор вида документа
         /// </summary>
-        public abstract Guid DocumentKind { get; }
+        public virtual Guid DocumentKind { get; }
         /// <summary>
         /// Сообщение документа
         /// </summary>
-        public virtual Message Message { get => _message; }
+        public virtual Message Message { get; }
         /// <summary>
         /// Родительское сообщение
         /// </summary>
-        public abstract Message ParentMessage { get; }
+        public virtual Message ParentMessage { get; }
         /// <summary>
         /// Основное сообщение
         /// </summary>
-        public abstract Message MainMessage { get; }
+        public virtual Message MainMessage { get; }
         /// <summary>
         /// Рег. номер документа/задачи в системе отправителя
         /// </summary>
@@ -134,32 +138,29 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         /// Заголовок текста (краткое содержание)
         /// </summary>
         public string Title { get => _title; }
-        /// <summary>
-        /// Версия документа
-        /// </summary>
-        public Version Version { get; private set; }
 
-        public virtual void AddVersion(string fileName, string noname, string author, long? fileTypeId)
+        /// <summary>
+        /// Список документов
+        /// </summary>
+        public IEnumerable<Version> Versions { get => _versions; }
+
+        public virtual Version AddVersion(string fileName, string noname, string author, long? fileTypeId, string signer, DateTime signTime, byte[] value)
         {
-            if (Version is null)
+            var existsDocument = this.Versions.SingleOrDefault(v => v.IsEquals(fileName, noname, fileTypeId));
+
+            if (existsDocument is null)
             {
-                var vesrsion = new Version(this, fileName, noname, author, fileTypeId);
-                Version = vesrsion;
+                var document = new Version(this, fileName, noname, author, fileTypeId);
+                this._versions.Add(document);
+                return document;
             }
             else
             {
-                Version.SetFileName(fileName);
-                Version.SetNoname(noname);
-                Version.SetFileTypeId(fileTypeId);
+                existsDocument.SetFileName(fileName);
+                existsDocument.SetNoname(noname);
+                existsDocument.SetFileTypeId(fileTypeId);
+                return existsDocument;
             }
-        }
-
-        public virtual void AddSignatureForVersion(string signer, DateTime signTime, byte[] value)
-        {
-            if (Version is null)
-                throw new ArgumentNullException(nameof(Version));
-
-            Version.AddSignature(signer, signTime, value);
         }
 
         public void SetIdNumber(string idNumber)

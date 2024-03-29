@@ -24,12 +24,6 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("sedtypesyncs_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<long>("_sedTypeSyncId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("EntitySyncId")
-                .IsRequired();
-
-            builder
                 .Property<long>("_subscriberId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SubscriberId")

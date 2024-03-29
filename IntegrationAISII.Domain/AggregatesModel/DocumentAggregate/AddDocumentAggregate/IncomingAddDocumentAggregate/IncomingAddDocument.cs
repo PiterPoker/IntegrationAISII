@@ -16,7 +16,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         private IncomingDocument _mainDocument;
         private Guid _addDocumentType;
         private long _incomingMessageId;
-        private IncomingMessage _incomingMessage;
+        private IncomingMessage _message;
 
         protected IncomingAddDocument(Guid addDocumentGuid, int addTypeId, string content) 
             : base(addDocumentGuid, addTypeId, content)
@@ -27,14 +27,19 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         public IncomingAddDocument(IncomingMessage incomingMessage, Guid addDocumentGuid, int addTypeId, string content) 
             : this(addDocumentGuid, addTypeId, content)
         {
-            this._incomingMessage = incomingMessage;
+            this._message = incomingMessage;
+        }
+        public IncomingAddDocument()
+            : base()
+        {
+            _addDocumentType = Guid.Parse("cae8ef83-8c91-46b1-a3c0-75a5fecaf624");
         }
 
         public override Guid AddDocumentType { get => _addDocumentType; }
 
         public override IncomingDocument MainDocument { get => _mainDocument; }
 
-        public override IncomingMessage Message { get => _incomingMessage; }
+        public override IncomingMessage Message { get => _message; }
 
         public void SetMainDocument(IncomingDocument document)
         {

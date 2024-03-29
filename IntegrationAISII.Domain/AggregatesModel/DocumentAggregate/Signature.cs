@@ -38,6 +38,11 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate
             _value = value is not null ? value : throw new ArgumentNullException(nameof(value));
         }
 
+        public Signature()
+        {
+
+        }
+
         public bool IsEquals(string signer, DateTime signTime, byte[] value) 
         {
             var isSimilarSigner = string.Equals(this._signer, signer);

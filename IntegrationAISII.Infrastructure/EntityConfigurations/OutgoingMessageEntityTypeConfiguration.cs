@@ -14,7 +14,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<OutgoingMessage> builder)
         {
-            builder.ToTable("messages", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            /*builder.ToTable("messages", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -81,27 +81,27 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .Property<long?>("_acknowledgementId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AcknowledgementId")
-                .IsRequired();
+                .IsRequired();*/
 
-            builder
+            /*builder
                 .HasOne(u => u.AddDocument)
                 .WithOne()
-                .HasForeignKey<OutgoingMessage>("_addDocumentId")
+                .HasForeignKey("MessageId")
                 .IsRequired(false)
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder
                 .HasOne(u => u.Document)
                 .WithOne()
-                .HasForeignKey<OutgoingMessage>("_documentId")
+                .HasForeignKey("MessageId")
                 .IsRequired(false)
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder
                 .HasOne(u => u.Acknowledgement)
                 .WithOne()
-                .HasForeignKey<OutgoingMessage>("_acknowledgementId")
-                .IsRequired(false);
+                .HasForeignKey("MessageId")
+                .IsRequired(false);*/
 
             builder
                 .HasMany(b => b.Receivers)

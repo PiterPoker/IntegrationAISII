@@ -26,6 +26,8 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder.Property(ct => ct.Name)
                 .HasMaxLength(200)
                 .IsRequired();
+
+            builder.HasData(AckStatus.List());
         }
     }
 }

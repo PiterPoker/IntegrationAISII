@@ -30,6 +30,11 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.FileTypeAggre
         {
         }
 
+        public FileType() 
+            : base()
+        {
+        }
+
         public override void EntitySync(long subscriberId)
         {
             if (subscriberId <= 0)

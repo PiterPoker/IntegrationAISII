@@ -22,9 +22,14 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
         public List<OutgoingMailingTrack> MailingTracks { get => _mailingTracks; }
 
         public Receiver(OutgoingMessage message, long orgainizationId)
+            : this()
         {
             _message = message is not null ? message : throw new ArgumentNullException(nameof(message));
             _orgainizationId = orgainizationId > 0 ? orgainizationId : throw new IntegrationAISIIDomainException($"Invalid {nameof(orgainizationId)} ID");
+        }
+
+        public Receiver()
+        {
             _mailingTracks = new List<OutgoingMailingTrack>()
             {
                 new OutgoingMailingTrack(this, DateTime.UtcNow)

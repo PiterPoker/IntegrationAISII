@@ -1,4 +1,6 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessageAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.MessageAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.IncomingMessageAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -9,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace IntegrationAISII.Infrastructure.EntityConfigurations
 {
-    internal class IncomingMessageEntityTypeConfiguration
-        : IEntityTypeConfiguration<IncomingMessage>
+    internal class MessageEntityTypeConfiguration
+        : IEntityTypeConfiguration<Message>
     {
-        public void Configure(EntityTypeBuilder<IncomingMessage> builder)
+        public void Configure(EntityTypeBuilder<Message> builder)
         {
-            /*builder.ToTable("messages", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            builder.ToTable("messages", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -24,10 +26,20 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("messages_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
+                .HasDiscriminator<Guid>("MessageType")
+                .HasValue<Message>(Guid.Parse("939cf108-1886-402d-8dae-130f21d36378"))
+                .HasValue<IncomingMessage>(Guid.Parse("34c9fc63-fed1-42c7-9058-fba802002613"));
+
+            builder
+                .HasDiscriminator<Guid>("MessageType")
+                .HasValue<Message>(Guid.Parse("939cf108-1886-402d-8dae-130f21d36378"))
+                .HasValue<OutgoingMessage>(Guid.Parse("6a3690f2-69f4-4a97-8160-ec4e8c84528b"));
+
+            /*builder
                 .Property<Guid>("_messageType")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Discriminator")
-                .IsRequired();
+                .IsRequired();*/
 
             builder
                 .Property<long>("_senderId")
@@ -65,51 +77,23 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasColumnName("Subject")
                 .IsRequired();
 
-            builder
+            /*builder
                 .Property<long?>("_addDocumentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("AddDocumentId")
-                .IsRequired();
+                .HasColumnName("AddDocument")
+                .IsRequired(false);
 
             builder
                 .Property<long?>("_documentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("DocumentId")
-                .IsRequired();
+                .HasColumnName("Document")
+                .IsRequired(false);
 
             builder
                 .Property<long?>("_acknowledgementId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("AcknowledgementId")
-                .IsRequired();*/
-
-            /*builder
-                .HasOne(u => u.AddDocument)
-                .WithOne()
-                .HasForeignKey("MessageId")
-                .IsRequired(false);
-
-            builder
-                .HasOne(u => u.Document)
-                .WithOne()
-                .HasForeignKey("MessageId")
-                .IsRequired(false);
-
-            builder
-                .HasOne(u => u.Acknowledgement)
-                .WithOne()
-                .HasForeignKey("MessageId")
+                .HasColumnName("Acknowledgement")
                 .IsRequired(false);*/
-
-            builder
-                .HasMany(b => b.MailingTracks)
-                .WithOne()
-                .HasForeignKey("MessageId")
-                .OnDelete(DeleteBehavior.Cascade);
-
-            var mailingTracks = builder.Metadata.FindNavigation(nameof(IncomingMessage.MailingTracks));
-
-            mailingTracks.SetPropertyAccessMode(PropertyAccessMode.Field);
         }
     }
 }

@@ -157,6 +157,11 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         {
         }
 
+        public Organization()
+            : base()
+        {
+        }
+
         public override void EntitySync(long subscriberId)
         {
             if (subscriberId <= 0)

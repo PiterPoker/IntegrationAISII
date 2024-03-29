@@ -12,18 +12,23 @@ namespace IntegrationAISII.Domain.AggregatesModel.SubscriberAggregate
     {
         private string _email;
         private string _login;
-        private long? _organizationId;
+        private long _organizationId;
         private Organization _organization;
         private string _password;
         private Guid _subscriberGuid;
 
+        public Subscriber()
+        {
+            _subscriberGuid = Guid.NewGuid();
+        }
+
         public Subscriber(string email, string login, Organization organization, string password)
+            : this()
         {
             this.SetEmail(email);
             this.SetLogin(login);
             this.SetPassword(password);
             _organization = organization ?? throw new ArgumentNullException(nameof(organization));
-            _subscriberGuid = Guid.NewGuid();
         }
 
         /// <summary>

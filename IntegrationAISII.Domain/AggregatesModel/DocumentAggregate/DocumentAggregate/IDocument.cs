@@ -43,9 +43,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         /// </summary>
         string Title { get; }
         /// <summary>
-        /// Версия документа
+        /// Список документов
         /// </summary>
-        Version Version { get; }
+        IEnumerable<Version> Versions  { get; }
         /// <summary>
         /// Сообщение документа
         /// </summary>

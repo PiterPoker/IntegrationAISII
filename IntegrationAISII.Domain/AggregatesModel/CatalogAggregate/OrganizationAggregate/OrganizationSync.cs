@@ -11,10 +11,13 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
     {
         private long _organizationSyncId;
 
-        public override long EntitySyncId { get => _organizationSyncId; }
+        public override long EntitySyncId { get; set; }
         public OrganizationSync(long entitySyncId, long subscriberId) : base(subscriberId)
         {
             _organizationSyncId = entitySyncId > 0 ? entitySyncId : throw new IntegrationAISIIDomainException($"Invalid {nameof(entitySyncId)} ID");
+        }
+        public OrganizationSync() : base()
+        {
         }
     }
 }

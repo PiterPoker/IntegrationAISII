@@ -34,9 +34,13 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate
         /// </summary>
         bool IsLocked { get; }
         /// <summary>
+        /// Сообщение уведомление
+        /// </summary>
+        Message Message { get; }
+        /// <summary>
         /// Сообщение по которому создается уведомление
         /// </summary>
-        //Message Message { get; }
+        public Message ResponseTo { get; }
         /// <summary>
         /// ID пакета отправки в АИС МВ
         /// </summary>

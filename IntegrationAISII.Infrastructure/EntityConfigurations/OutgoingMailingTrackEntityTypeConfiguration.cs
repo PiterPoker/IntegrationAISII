@@ -14,7 +14,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<OutgoingMailingTrack> builder)
         {
-            builder.ToTable("mailingtracks", IntegrationAISIIContext.DEFAULT_SCHEMA);
+            /*builder.ToTable("mailingtracks", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder.HasKey(cr => cr.Id);
 
@@ -64,6 +64,18 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ReceiverId")
                 .IsRequired();
+
+            builder
+                .HasOne(u => u.Receiver)
+                .WithOne()
+                .HasForeignKey<OutgoingMailingTrack>("_receiverId")
+                .IsRequired(false);
+
+            builder
+                .HasOne(u => u.Acknowledgement)
+                .WithOne()
+                .HasForeignKey<OutgoingMailingTrack>("AcknowledgementId")
+                .IsRequired(false);*/
         }
     }
 }

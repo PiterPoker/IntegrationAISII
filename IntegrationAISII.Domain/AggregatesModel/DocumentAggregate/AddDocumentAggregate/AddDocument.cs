@@ -9,13 +9,18 @@ using System.Threading.Tasks;
 
 namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentAggregate
 {
-    public abstract class AddDocument : Entity, IAggregateRoot, IAddDocument
+    public class AddDocument : Entity, IAggregateRoot, IAddDocument
     {
         private List<Version> _versions;
         private int _addTypeId;
         private string _content;
         private Guid _addDocumentGuid;
-        private Message _message;
+        //private Message _message;
+
+        public AddDocument()
+        {
+
+        }
 
         protected AddDocument(Guid addDocumentGuid, int addTypeId, string content)
             : this(addTypeId, content)
@@ -30,7 +35,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
             _versions = new List<Version>();
         }
 
-        public AddDocument(Message message, Guid addDocumentGuid, int addTypeId, string content)
+       /* public AddDocument(Message message, Guid addDocumentGuid, int addTypeId, string content)
             : this(addDocumentGuid, addTypeId, content)
         {
             this._message = message;
@@ -40,7 +45,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
             : this(addTypeId, content)
         {
             this._message = message;
-        }
+        }*/
 
         /// <summary>
         /// Список документов
@@ -53,7 +58,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         /// <summary>
         /// Тип приложения
         /// </summary>
-        public abstract Guid AddDocumentType { get; }
+        public virtual Guid AddDocumentType { get; }
         /// <summary>
         /// Тип приложения
         /// </summary>
@@ -65,10 +70,10 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
         /// <summary>
         /// Основной документ
         /// </summary>
-        public abstract Document MainDocument { get; }
-        public abstract Message Message { get; }
+        public virtual Document MainDocument { get; }
+        public virtual Message Message { get; }
         //public abstract void AddAdditionalDocument(string fileName, string noname, long? fileTypeId);
-        public virtual void AddAdditionalDocument(string fileName, string noname, string author, long? fileTypeId)
+        public virtual Version AddAdditionalDocument(string fileName, string noname, string author, long? fileTypeId)
         {
             var existsAddDocument = this.Versions.SingleOrDefault(v => v.IsEquals(fileName, noname, fileTypeId));
 
@@ -76,7 +81,9 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
             {
                 var addDocument = new Version(this, fileName, noname, author, fileTypeId);
                 SetVersion(addDocument);
+                return addDocument;
             }
+            return existsAddDocument;
         }
 
         public virtual void SetAddDocumentGuid(Guid addDocumentGuid) => this._addDocumentGuid = addDocumentGuid;
