@@ -24,103 +24,103 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("organizations_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<Guid>("_objid")
+                .Property<Guid>("ObjId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ObjId")
                 .IsRequired();
 
             builder
-                .Property<DateTime>("_createDate")
+                .Property<DateTime>("CreateDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("CreateDate")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_aisiiId")
+                .Property<Guid>("AisiiId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AisiiId")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isActual")
+                .Property<bool>("IsActual")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsActual")
                 .IsRequired();
 
             builder
-                .Property<string>("_name")
+                .Property<string>("Name")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Name")
                 .IsRequired(false);
 
             builder
-                .Property<string>("_smdoCode")
+                .Property<string>("SmdoCode")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SmdoCode")
                 .IsRequired();
 
             builder
-                .Property<string>("_unp")
+                .Property<string>("Unp")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Unp")
                 .IsRequired();
 
             builder
-                .Property<string>("_soato")
+                .Property<string>("Soato")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Soato")
                 .IsRequired();
 
             builder
-                .Property<string>("_mail")
+                .Property<string>("Email")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Email")
                 .IsRequired();
 
             builder
-                .Property<string>("_shortName")
+                .Property<string>("ShortName")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ShortName")
                 .IsRequired();
 
             builder
-                .Property<string>("_street")
+                .Property<string>("Street")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Street")
                 .IsRequired();
 
             builder
-                .Property<string>("_corpus")
+                .Property<string>("Corpus")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Corpus")
                 .IsRequired();
 
             builder
-                .Property<string>("_abonentBox")
+                .Property<string>("AbonentBox")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AbonentBox")
                 .IsRequired();
 
             builder
-                .Property<string>("_phone")
+                .Property<string>("Phone")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Phone")
                 .IsRequired();
 
             builder
-                .Property<string>("_fax")
+                .Property<string>("Fax")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Fax")
                 .IsRequired();
 
             builder
-                .Property<string>("_home")
+                .Property<string>("Home")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Home")
                 .IsRequired();
 
             builder
-                .Property<string>("_postIndex")
+                .Property<string>("PostIndex")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("PostIndex")
                 .IsRequired();
@@ -132,7 +132,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
 
             builder.HasOne(b => b.EdmsType)
                .WithOne()
-               .HasForeignKey<Organization>("_edmsTypeId");
+               .HasForeignKey<Organization>("EdmsTypeId");
 
             var navigation = builder.Metadata.FindNavigation(nameof(Organization.OrganizationSyncs));
 

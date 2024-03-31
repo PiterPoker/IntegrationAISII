@@ -42,37 +42,37 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();*/
 
             builder
-                .Property<long>("_senderId")
+                .Property<long>("SenderId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SenderId")
                 .IsRequired();
 
             builder
-                .Property<DateTime>("_createDate")
+                .Property<DateTime>("CreateDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("CreateDate")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isLocked")
+                .Property<bool>("IsLocked")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsLocked")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_messageGuid")
+                .Property<Guid>("MessageGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageGuid")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_packageId")
+                .Property<Guid>("PackageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("PackageId")
                 .IsRequired();
 
             builder
-                .Property<string>("_subject")
+                .Property<string>("Subject")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Subject")
                 .IsRequired();

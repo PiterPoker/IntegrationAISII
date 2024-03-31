@@ -36,7 +36,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasValue<OutgoingDocument>(Guid.Parse("8e6389d8-78da-489d-865e-b4b9ecc4dda0"));
 
             builder
-                .Property<string>("_idNumber")
+                .Property<string>("IdNumber")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IdNumber")
                 .IsRequired();
@@ -48,61 +48,61 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();*/
 
             builder
-                .Property<long>("_documentTypeId")
+                .Property<long>("DocumentTypeId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("DocumentTypeId")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isConfident")
+                .Property<bool>("IsConfident")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsConfident")
                 .IsRequired();
 
             builder
-                .Property<string>("_regNumber")
+                .Property<string>("RegNumber")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("RegNumber")
                 .IsRequired();
 
             builder
-                .Property<int>("_pages")
+                .Property<int>("Pages")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Pages")
                 .IsRequired();
 
             builder
-                .Property<DateTime>("_regDate")
+                .Property<DateTime>("RegDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("RegDate")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_documentGuid")
+                .Property<Guid>("DocumentGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("DocumentGuid")
                 .IsRequired();
 
             builder
-                .Property<string>("_title")
+                .Property<string>("Title")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Title")
                 .IsRequired();
 
             builder
-                .Property<long?>("_parantMessageId")
+                .Property<long?>("ParentMessageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ParentMessageId")
                 .IsRequired(false);
 
             builder
-                .Property<long?>("_mainMessageId")
+                .Property<long?>("MainMessageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MainMessageId")
                 .IsRequired(false);
 
             builder
-                .Property<long>("_messageId")
+                .Property<long>("MessageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageId")
                 .IsRequired();

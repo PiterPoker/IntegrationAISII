@@ -36,7 +36,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasValue<OutgoingAcknowledgement>(Guid.Parse("d534e33d-ff98-4960-917a-4b8731eea3fd"));
 
             builder
-                .Property<Guid>("_ackMessageGuid")
+                .Property<Guid>("AckMessageGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AckMessageGuid")
                 .IsRequired();
@@ -48,64 +48,52 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();*/
 
             builder
-                .Property<DateTime>("_createDate")
+                .Property<DateTime>("CreateDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("CreateDate")
                 .IsRequired();
 
             builder
-                .Property<int>("_errorCode")
+                .Property<int>("ErrorCode")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ErrorCode")
                 .IsRequired();
 
             builder
-                .Property<string>("_errorText")
+                .Property<string>("ErrorText")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ErrorText")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isLocked")
+                .Property<bool>("IsLocked")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsLocked")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_packageId")
+                .Property<Guid>("PackageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("PackageId")
                 .IsRequired();
 
             builder
-                .Property<string>("_subject")
+                .Property<string>("Subject")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Subject")
                 .IsRequired();
 
             builder
-                .Property<int>("_ackTypeId")
+                .Property<int>("AckTypeId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AckTypeId")
                 .IsRequired();
 
             builder
-                .Property<int>("_statusId")
+                .Property<int>("StatusId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("StatusId")
                 .IsRequired();
-
-            builder
-                .Property<long>("_message")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("Message")
-                .IsRequired();
-
-            builder
-                .Property<long?>("_responseToId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("ResponseTo")
-                .IsRequired(false);
         }
     }
 }

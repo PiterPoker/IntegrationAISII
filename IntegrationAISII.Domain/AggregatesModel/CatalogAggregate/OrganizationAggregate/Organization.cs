@@ -13,7 +13,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         private string _smdoCode;
         private string _unp;
         private string _soato;
-        private string _mail;
+        private string _email;
         private string _shortName;
         private long _edmsTypeId;
         private SedType _edmsType;
@@ -107,7 +107,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
         /// </summary>
         public string Email
         {
-            get => _mail;
+            get => _email;
         }
         public IEnumerable<OrganizationSync> OrganizationSyncs { get => _organizationSyncs; }
         public Organization(Guid objid,
@@ -137,7 +137,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
             _smdoCode = !string.IsNullOrWhiteSpace(smdoCode) ? smdoCode : throw new IntegrationAISIIDomainException($"Invalid {nameof(smdoCode)} must not be empty");
             _unp = !string.IsNullOrWhiteSpace(unp) ? unp : throw new IntegrationAISIIDomainException($"Invalid {nameof(unp)} must not be empty");
             _soato = !string.IsNullOrWhiteSpace(soato) ? soato : throw new IntegrationAISIIDomainException($"Invalid {nameof(soato)} must not be empty");
-            _mail = !string.IsNullOrWhiteSpace(mail) ? mail : throw new IntegrationAISIIDomainException($"Invalid {nameof(mail)} must not be empty");
+            _email = !string.IsNullOrWhiteSpace(mail) ? mail : throw new IntegrationAISIIDomainException($"Invalid {nameof(mail)} must not be empty");
             _shortName = !string.IsNullOrWhiteSpace(shortName) ? shortName : throw new IntegrationAISIIDomainException($"Invalid {nameof(shortName)} must not be empty");
             _edmsTypeId = edmsTypeId > 0 ? edmsTypeId : throw new IntegrationAISIIDomainException($"Invalid {nameof(edmsTypeId)}");
             _street = !string.IsNullOrWhiteSpace(street) ? street : throw new IntegrationAISIIDomainException($"Invalid {nameof(street)} must not be empty");

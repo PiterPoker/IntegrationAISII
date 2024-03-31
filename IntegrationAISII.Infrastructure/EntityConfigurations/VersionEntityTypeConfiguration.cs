@@ -25,25 +25,25 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("versions_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<string>("_fileName")
+                .Property<string>("FileName")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("FileName")
                 .IsRequired();
 
             builder
-                .Property<string>("_noname")
+                .Property<string>("Noname")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Noname")
                 .IsRequired();
 
             builder
-                .Property<string>("_author")
+                .Property<string>("Author")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Author")
                 .IsRequired();
 
             builder
-                .Property<long?>("_fileTypeId")
+                .Property<long?>("FileTypeId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("FileTypeId")
                 .IsRequired();

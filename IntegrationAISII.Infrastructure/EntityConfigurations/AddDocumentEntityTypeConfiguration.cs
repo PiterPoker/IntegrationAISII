@@ -42,31 +42,31 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();*/
 
             builder
-                .Property<Guid>("_addDocumentGuid")
+                .Property<Guid>("AddDocumentGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AddDocumentGuid")
                 .IsRequired();
 
             builder
-                .Property<int>("_addTypeId")
+                .Property<int>("AddTypeId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AddTypeId")
                 .IsRequired();
 
             builder
-                .Property<string>("_content")
+                .Property<string>("Content")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Content")
                 .IsRequired();
 
             builder
-                .Property<long>("_messageId")
+                .Property<long>("MessageId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageId")
                 .IsRequired();
 
             builder
-                .Property<long?>("_mainDocumentId")
+                .Property<long?>("MainDocumentId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MainDocumentId")
                 .IsRequired(false);

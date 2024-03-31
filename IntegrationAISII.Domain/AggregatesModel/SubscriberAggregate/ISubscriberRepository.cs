@@ -11,8 +11,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.SubscriberAggregate
     {
         Subscriber Add(Subscriber subscriber);
         Subscriber Update(Subscriber subscriber);
-        Task<Subscriber> GetAsync(int Id);
-        Task<IEnumerable<Subscriber>> GetAllAsync();
-        Task DeleteAsync(int Id);
+        Task<Subscriber> Get(int Id);
+        Task<IEnumerable<Subscriber>> GetAll(System.Linq.Expressions.Expression<Func<Subscriber, bool>> predicate);
+        Task Delete(int Id);
     }
 }

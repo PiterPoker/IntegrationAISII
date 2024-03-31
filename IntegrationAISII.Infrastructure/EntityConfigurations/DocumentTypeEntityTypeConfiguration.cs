@@ -24,31 +24,31 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("documenttypes_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<Guid>("_objid")
+                .Property<Guid>("ObjId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("ObjId")
                 .IsRequired();
 
             builder
-                .Property<DateTime>("_createDate")
+                .Property<DateTime>("CreateDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("CreateDate")
                 .IsRequired();
 
             builder
-                .Property<Guid>("_aisiiId")
+                .Property<Guid>("AisiiId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("AisiiId")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isActual")
+                .Property<bool>("IsActual")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsActual")
                 .IsRequired();
 
             builder
-                .Property<string>("_name")
+                .Property<string>("Name")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Name")
                 .IsRequired(false);

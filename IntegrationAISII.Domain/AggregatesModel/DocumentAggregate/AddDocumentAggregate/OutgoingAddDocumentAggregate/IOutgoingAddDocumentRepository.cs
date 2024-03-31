@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +12,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.AddDocumentA
     {
         OutgoingAddDocument Add(OutgoingAddDocument addDocument);
         OutgoingAddDocument Update(OutgoingAddDocument addDocument);
-        Task<OutgoingAddDocument> GetAsync(int Id);
-        Task<IEnumerable<OutgoingAddDocument>> GetAllAsync();
-        Task DeleteAsync(int Id);
+        Task<OutgoingAddDocument> Get(int Id);
+        Task<IEnumerable<OutgoingAddDocument>> GetAll(Expression<Func<OutgoingAddDocument, bool>> predicate);
+        Task Delete(int Id);
     }
 }

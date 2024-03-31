@@ -98,19 +98,19 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder
                 .HasOne(u => u.ParentMessage)
                 .WithOne()
-                .HasForeignKey<OutgoingDocument>("_parantMessageId")
+                .HasForeignKey<OutgoingDocument>("ParentMessageId")
                 .IsRequired(false);
 
             builder
                 .HasOne(u => u.MainMessage)
                 .WithOne()
-                .HasForeignKey<OutgoingDocument>("_mainMessageId")
+                .HasForeignKey<OutgoingDocument>("MainMessageId")
                 .IsRequired(false);
 
             builder
                 .HasOne(u => u.Message)
                 .WithOne()
-                .HasForeignKey<OutgoingDocument>("_messageId")
+                .HasForeignKey<OutgoingDocument>("MessageId")
                 .IsRequired();
         }
     }

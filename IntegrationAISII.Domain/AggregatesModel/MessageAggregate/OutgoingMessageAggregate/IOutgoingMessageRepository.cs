@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +12,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessa
     {
         OutgoingMessage Add(OutgoingMessage message);
         OutgoingMessage Update(OutgoingMessage message);
-        Task<OutgoingMessage> GetAsync(int Id);
-        Task<IEnumerable<OutgoingMessage>> GetAllAsync();
-        Task DeleteAsync(int Id);
+        Task<OutgoingMessage> Get(int Id);
+        Task<IEnumerable<OutgoingMessage>> GetAll(Expression<Func<OutgoingMessage, bool>> predicate);
+        Task Delete(int Id);
     }
 }

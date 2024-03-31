@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +12,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.FileTypeAggre
     {
         FileType Add(FileType fileType);
         FileType Update(FileType fileType);
-        Task<FileType> GetAsync(int Id);
-        Task<IEnumerable<FileType>> GetAllAsync();
-        Task DeleteAsync(int Id);
+        Task<FileType> Get(int Id);
+        Task<IEnumerable<FileType>> GetAll(Expression<Func<FileType, bool>> predicate);
+        Task Delete(int Id);
     }
 }

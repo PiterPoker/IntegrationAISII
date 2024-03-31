@@ -23,11 +23,6 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder.Property(u => u.Id)
                 .UseHiLo("receivers_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
-            builder
-                .Property<long>("_orgainizationId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("Organization")
-                .IsRequired();
 
             /*builder
                 .Property<long>("_messageId")

@@ -24,13 +24,13 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("sedtypesyncs_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<long>("_subscriberId")
+                .Property<long>("SubscriberId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SubscriberId")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isSync")
+                .Property<bool>("IsSync")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsSync")
                 .IsRequired();

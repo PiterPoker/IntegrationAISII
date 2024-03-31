@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +12,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.Outgo
     {
         OutgoingAcknowledgement Add(OutgoingAcknowledgement acknowledgement);
         OutgoingAcknowledgement Update(OutgoingAcknowledgement acknowledgement);
-        Task<OutgoingAcknowledgement> GetAsync(int Id);
-        Task<IEnumerable<OutgoingAcknowledgement>> GetAllAsync();
-        Task DeleteAsync(int acknowledgementId);
+        Task<OutgoingAcknowledgement> Get(int Id);
+        Task<IEnumerable<OutgoingAcknowledgement>> GetAll(Expression<Func<OutgoingAcknowledgement, bool>> predicate);
+        Task Delete(int Id);
     }
 }

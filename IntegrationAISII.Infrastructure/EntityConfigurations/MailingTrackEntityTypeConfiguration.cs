@@ -42,25 +42,25 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .IsRequired();*/
 
             builder
-                .Property<DateTime>("_createDate")
+                .Property<DateTime>("CreateDate")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("CreateDate")
                 .IsRequired();
 
             builder
-                .Property<string>("_description")
+                .Property<string>("Description")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Description")
                 .IsRequired();
 
             builder
-                .Property<bool>("_isUnread")
+                .Property<bool>("IsUnread")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("IsUnread")
                 .IsRequired();
 
             builder
-                .Property<int>("_statusId")
+                .Property<int>("StatusId")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("StatusId")
                 .IsRequired();

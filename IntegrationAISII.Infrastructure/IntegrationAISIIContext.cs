@@ -67,7 +67,7 @@ namespace IntegrationAISII.Infrastructure
 
         public IntegrationAISIIContext(DbContextOptions<IntegrationAISIIContext> options) : base(options) 
         {
-            //Database.EnsureDeleted();
+            Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 

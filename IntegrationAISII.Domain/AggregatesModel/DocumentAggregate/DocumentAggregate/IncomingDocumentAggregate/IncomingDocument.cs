@@ -14,7 +14,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggr
         private Guid _documentKind;
         private long _messageId;
         private IncomingMessage _message;
-        private long? _parantMessageId;
+        private long? _parentMessageId;
         private Message _parantMessage;
         private long? _mainMessageId;
         private OutgoingMessage _mainMessage;

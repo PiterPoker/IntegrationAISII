@@ -1,4 +1,5 @@
 using IntegrationAISII.Infrastructure;
+using IntegrationAISII.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 using System.Threading.Tasks;
@@ -23,7 +24,12 @@ namespace IntegrationAISII.Test
         {
             using(var db = new IntegrationAISIIContext(_options))
             {
-                var document = await db.OutgoingDocuments.ToListAsync();
+                /*var messageRepository = new OutgoingDocumentRepository(db);
+                var documents = await messageRepository.GetAll(m => !string.IsNullOrWhiteSpace(m.Title));*/
+                var organizationRepository = new OrganizationRepository(db);
+                var organizations = await organizationRepository.GetAll(m => !string.IsNullOrWhiteSpace(m.Unp));
+                var fileTypeRepository = new FileTypeRepository(db);
+                var fileTypes = await fileTypeRepository.GetAll(m => !string.IsNullOrWhiteSpace(m.Extension));
             }
 
             Assert.Pass();

@@ -14,7 +14,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate
     /// </summary>
     public abstract class Catalog : Entity, IAggregateRoot, ICatalog
     {
-        private Guid _objid;
+        private Guid _objId;
         private Guid _aisiiId;
         private DateTime _createDate;
         private bool _isActual;
@@ -29,7 +29,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate
 
         protected Catalog(Guid objid, DateTime createDate, string name, bool isActual, Guid aisiiId) : this()
         {
-            _objid = objid != Guid.Empty ? objid : throw new IntegrationAISIIDomainException($"Invalid {nameof(objid)} must be greater than zero");
+            _objId = objid != Guid.Empty ? objid : throw new IntegrationAISIIDomainException($"Invalid {nameof(objid)} must be greater than zero");
             _createDate = createDate != DateTime.MinValue ? createDate : throw new IntegrationAISIIDomainException($"Invalid {nameof(createDate)} must be greater than the minimum");
             _name = !string.IsNullOrWhiteSpace(name) ? name : throw new IntegrationAISIIDomainException($"Invalid {nameof(createDate)} must not be empty");
             _isActual = isActual;
@@ -55,7 +55,7 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate
         /// <summary>
         /// Идентификатор записи справочника АИС МВ (НЕ МЕНЯЕТСЯ ОТ ВЕРСИИ К ВЕРСИИ)
         /// </summary>
-        public Guid ObjId { get => _objid; }
+        public Guid ObjId { get => _objId; }
         /// <summary>
         /// Синхронизация сущносит спавочника
         /// </summary>

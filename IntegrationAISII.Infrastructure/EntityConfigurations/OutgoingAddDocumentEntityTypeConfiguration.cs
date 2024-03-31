@@ -62,13 +62,13 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder
                 .HasOne(u => u.MainDocument)
                 .WithOne()
-                .HasForeignKey<OutgoingAddDocument>("_mainDocumentId")
+                .HasForeignKey<OutgoingAddDocument>("MainDocumentId")
                 .IsRequired(false);
 
             builder
                 .HasOne(u => u.Message)
                 .WithOne()
-                .HasForeignKey<OutgoingAddDocument>("_messageId")
+                .HasForeignKey<OutgoingAddDocument>("MessageId")
                 .IsRequired();
 
             builder

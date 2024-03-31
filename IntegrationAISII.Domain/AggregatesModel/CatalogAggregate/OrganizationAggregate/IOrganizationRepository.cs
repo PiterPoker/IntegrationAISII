@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +12,8 @@ namespace IntegrationAISII.Domain.AggregatesModel.CatalogAggregate.OrganizationA
     {
         Organization Add(Organization organization);
         Organization Update(Organization organization);
-        Task<Organization> GetAsync(int Id);
-        Task<IEnumerable<Organization>> GetAllAsync();
-        Task DeleteAsync(int Id);
+        Task<Organization> Get(int Id);
+        Task<IEnumerable<Organization>> GetAll(Expression<Func<Organization, bool>> predicate);
+        Task Delete(int Id);
     }
 }

@@ -24,31 +24,25 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UseHiLo("subscribers_Id_seq", IntegrationAISIIContext.DEFAULT_SCHEMA);
 
             builder
-                .Property<Guid>("_subscriberGuid")
+                .Property<Guid>("SubscriberGuid")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("SubscriberGuid")
                 .IsRequired();
 
             builder
-                .Property<long>("_organizationId")
-                .UsePropertyAccessMode(PropertyAccessMode.Field)
-                .HasColumnName("Organization")
-                .IsRequired();
-
-            builder
-                .Property<string>("_login")
+                .Property<string>("Login")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Login")
                 .IsRequired();
 
             builder
-                .Property<string>("_email")
+                .Property<string>("Email")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Email")
                 .IsRequired();
 
             builder
-                .Property<string>("_password")
+                .Property<string>("Password")
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("Password")
                 .IsRequired();
