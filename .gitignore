@@ -1,0 +1,9 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/IntegrationAISII/FileContentIndex/25091615-a26d-4544-a19e-9d7f0f09695e.vsidx
+/.vs/IntegrationAISII/FileContentIndex
+/.vs/IntegrationAISII/config
+/.vs/IntegrationAISII/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation

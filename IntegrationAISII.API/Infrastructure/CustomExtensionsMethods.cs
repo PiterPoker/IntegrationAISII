@@ -20,9 +20,9 @@ namespace IntegrationAISII.API.Infrastructure
                                tags: new string[] { "aisiidb" });
 
 
-                services
+                /*services
                     .AddHealthChecksUI()
-                    .AddInMemoryStorage(); 
+                    .AddInMemoryStorage(); */
             }
             else
             {

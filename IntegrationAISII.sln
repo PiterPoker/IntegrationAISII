@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationAISII.Infrastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationAISII.Test", "IntegrationAISII.Test\IntegrationAISII.Test.csproj", "{AF24FBE0-BCFF-4A55-B128-3823A770E849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationAISII.API", "IntegrationAISII.API\IntegrationAISII.API.csproj", "{47BB6205-B12E-44B7-B33B-D06D2C48811F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationAISII.API", "IntegrationAISII.API\IntegrationAISII.API.csproj", "{47BB6205-B12E-44B7-B33B-D06D2C48811F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusAISII", "StatusAISII\StatusAISII.csproj", "{0E32B24B-92F0-414E-A28A-BD591DA30443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{47BB6205-B12E-44B7-B33B-D06D2C48811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47BB6205-B12E-44B7-B33B-D06D2C48811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47BB6205-B12E-44B7-B33B-D06D2C48811F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E32B24B-92F0-414E-A28A-BD591DA30443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E32B24B-92F0-414E-A28A-BD591DA30443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E32B24B-92F0-414E-A28A-BD591DA30443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E32B24B-92F0-414E-A28A-BD591DA30443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

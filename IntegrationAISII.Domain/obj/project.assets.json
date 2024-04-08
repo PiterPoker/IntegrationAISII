@@ -5,10 +5,14 @@
       "MediatR/9.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
@@ -27,10 +31,14 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Reflection.TypeExtensions/4.7.0": {
@@ -171,23 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Artsiom-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\Tema5\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
       "projectName": "IntegrationAISII.Domain",
-      "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
-      "packagesPath": "C:\\Users\\Artsiom-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+      "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Artsiom-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tema5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -208,6 +216,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -233,7 +246,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -242,7 +256,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

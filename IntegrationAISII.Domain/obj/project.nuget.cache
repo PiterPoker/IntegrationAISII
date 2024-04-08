@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Jf9RgavTn78pKdxaPU449dDPNwHGkWfbQG5jE6T3C7xmVvZ7IUAPt502ozNvOce+k6WOLa8Vdkkwbj9EkQJx8Q==",
+  "dgSpecHash": "WTYNXzGvWl4d37t/IQ7mAV82cBOyFF268auAIregx6RUk2jLkbJcNewjpLvXpTbqGWQVMeZi+y5y51/suncaOQ==",
   "success": true,
-  "projectFilePath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Artsiom-PC\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\Artsiom-PC\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\Artsiom-PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
-    "C:\\Users\\Artsiom-PC\\.nuget\\packages\\system.reflection.typeextensions\\4.7.0\\system.reflection.typeextensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\system.reflection.typeextensions\\4.7.0\\system.reflection.typeextensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

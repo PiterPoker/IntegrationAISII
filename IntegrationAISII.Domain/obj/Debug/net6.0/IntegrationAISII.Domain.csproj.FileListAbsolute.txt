@@ -10,3 +10,16 @@ D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\Integration
 D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\refint\IntegrationAISII.Domain.dll
 D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.pdb
 D:\project\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\ref\IntegrationAISII.Domain.dll
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.deps.json
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.dll
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\bin\Debug\net6.0\IntegrationAISII.Domain.pdb
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.csproj.AssemblyReference.cache
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.AssemblyInfoInputs.cache
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.AssemblyInfo.cs
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.sourcelink.json
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.dll
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\refint\IntegrationAISII.Domain.dll
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\IntegrationAISII.Domain.pdb
+C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.Domain\obj\Debug\net6.0\ref\IntegrationAISII.Domain.dll

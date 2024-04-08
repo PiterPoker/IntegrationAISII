@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj": {}
+    "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj": {}
   },
   "projects": {
-    "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj": {
+    "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
         "projectName": "IntegrationAISII.Domain",
-        "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
-        "packagesPath": "C:\\Users\\Artsiom-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+        "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artsiom-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -38,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +68,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,24 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj": {
+    "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
         "projectName": "IntegrationAISII.Infrastructure",
-        "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Artsiom-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artsiom-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,8 +110,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj": {
-                "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj"
+              "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj"
               }
             }
           }
@@ -114,6 +120,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -149,7 +160,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -158,24 +170,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\project\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj": {
+    "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
         "projectName": "IntegrationAISII.Test",
-        "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
-        "packagesPath": "C:\\Users\\Artsiom-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Test\\obj\\",
+        "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+        "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artsiom-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tema5\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,8 +202,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj": {
-                "projectPath": "D:\\project\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj"
+              "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj"
               }
             }
           }
@@ -200,6 +212,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -229,7 +246,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -238,7 +256,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

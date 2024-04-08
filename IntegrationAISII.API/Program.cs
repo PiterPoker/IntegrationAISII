@@ -46,8 +46,8 @@ try
         app.UseSwaggerUI();
     }
 
-    app.UseHttpsRedirection();
-    app.UseAuthorization();
+    //app.UseHttpsRedirection();
+    //app.UseAuthorization();
     //app.MapControllers();
     app.UseRouting();
     app.UseEndpoints(endpoints =>
@@ -58,7 +58,7 @@ try
             Predicate = _ => true,
             ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
         });
-        endpoints.MapHealthChecksUI(config => config.UIPath = "/hc-ui");
+        //endpoints.MapHealthChecksUI(config => config.UIPath = "/hc-ui");
     });
     Log.Information("Starting web host ({ApplicationContext})...", AppName);
 
