@@ -94,6 +94,12 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("StatusId")
                 .IsRequired();
+
+            builder
+                .Property<long>("MessageId")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("MessageId")
+                .IsRequired();
         }
     }
 }

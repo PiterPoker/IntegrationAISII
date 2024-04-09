@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationAISII.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0b43b93cd008d9429bf48568452b7e2046617a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23854ba9467abf5101ecab3c78ac6a3e55c63e80")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegrationAISII.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegrationAISII.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

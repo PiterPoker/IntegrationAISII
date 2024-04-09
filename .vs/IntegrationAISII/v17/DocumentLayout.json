@@ -3,6 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\receiverentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\receiverentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\organizationsyncentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\organizationsyncentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\organizationentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\organizationentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\outgoingdocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\outgoingdocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\incomingmessageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\incomingmessageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\outgoingmessageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\outgoingmessageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\messageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\messageentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\outgoingacknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\outgoingacknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\incomingacknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\incomingacknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\acknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\acknowledgemententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\outgoingadddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\outgoingadddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\incomingadddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\incomingadddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\adddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\adddocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\incomingdocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\incomingdocumententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\documententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\documententitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\entityconfigurations\\mailingtrackentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\entityconfigurations\\mailingtrackentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|solutionrelative:integrationaisii.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -90,11 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -106,6 +170,19 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganizationSyncEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationSyncEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationSyncEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationSyncEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationSyncEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T08:09:03.905Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
@@ -115,12 +192,220 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OutgoingAcknowledgementEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAcknowledgementEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAcknowledgementEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAcknowledgementEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAcknowledgementEntityTypeConfiguration.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwGkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:32:55.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IncomingAcknowledgementEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAcknowledgementEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAcknowledgementEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAcknowledgementEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAcknowledgementEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAgwGQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:31:33.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:12:10.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizationEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OrganizationEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAgwIYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:35:11.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReceiverEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\ReceiverEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\ReceiverEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\ReceiverEntityTypeConfiguration.cs*",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\ReceiverEntityTypeConfiguration.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwCkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:34:20.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OutgoingDocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingDocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingDocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingDocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingDocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwHIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:29:15.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessageEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\MessageEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\MessageEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\MessageEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\MessageEntityTypeConfiguration.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:33:31.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OutgoingMessageEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingMessageEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingMessageEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingMessageEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingMessageEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:33:42.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IncomingMessageEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingMessageEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingMessageEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingMessageEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingMessageEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAQwGsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:33:46.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AcknowledgementEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\AcknowledgementEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\AcknowledgementEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\AcknowledgementEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\AcknowledgementEntityTypeConfiguration.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAgwGIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:30:46.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OutgoingAddDocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAddDocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAddDocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAddDocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\OutgoingAddDocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:30:26.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IncomingAddDocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAddDocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAddDocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAddDocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingAddDocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:29:52.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddDocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\AddDocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\AddDocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\AddDocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\AddDocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:29:40.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IncomingDocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingDocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingDocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingDocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\IncomingDocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwHEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:28:15.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DocumentEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\DocumentEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\DocumentEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\DocumentEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\DocumentEntityTypeConfiguration.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:26:53.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MailingTrackEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\MailingTrackEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\EntityConfigurations\\MailingTrackEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\EntityConfigurations\\MailingTrackEntityTypeConfiguration.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\EntityConfigurations\\MailingTrackEntityTypeConfiguration.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T07:26:06.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "IntegrationAISII.Test\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\UnitTest1.cs*",
-              "RelativeToolTip": "IntegrationAISII.Test\\UnitTest1.cs*",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\UnitTest1.cs",
+              "RelativeToolTip": "IntegrationAISII.Test\\UnitTest1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T05:35:19.87Z",
@@ -128,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Dockerfile",
               "RelativeDocumentMoniker": "StatusAISII\\Dockerfile",
@@ -140,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "StatusAISII.csproj",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
               "RelativeDocumentMoniker": "StatusAISII\\StatusAISII.csproj",
@@ -153,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 20,
               "Title": "IntegrationAISIIContext.cs",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
               "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
@@ -166,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "IntegrationAISII.Test.csproj",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
               "RelativeDocumentMoniker": "IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
@@ -179,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\appsettings.json",
               "RelativeDocumentMoniker": "StatusAISII\\appsettings.json",
@@ -192,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\Properties\\launchSettings.json",
@@ -205,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 19,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -218,20 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T20:12:10.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\appsettings.json",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\appsettings.json",
@@ -244,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",
@@ -257,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -270,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "StatusAISII\\Properties\\launchSettings.json",
@@ -283,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -296,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "IntegrationAISII.API.csproj",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\IntegrationAISII.API.csproj",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\IntegrationAISII.API.csproj",
@@ -309,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Program.cs",
               "RelativeDocumentMoniker": "StatusAISII\\Program.cs",
@@ -322,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Dockerfile",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\Dockerfile",
@@ -334,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\WeatherForecast.cs",
@@ -346,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": ".filenesting.json",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.filenesting.json",
               "RelativeDocumentMoniker": ".filenesting.json",

@@ -1,4 +1,5 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.OutgoingDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.MessageAggregate.OutgoingMessageAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -29,12 +30,17 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .UsePropertyAccessMode(PropertyAccessMode.Field)
                 .HasColumnName("MessageId")
                 .IsRequired();*/
+            builder
+                .Property<long>("_organizationId")
+                .UsePropertyAccessMode(PropertyAccessMode.Field)
+                .HasColumnName("OrganizationId")
+                .IsRequired();
 
             builder
                 .HasMany(b => b.MailingTracks)
                 .WithOne()
                 .HasForeignKey("ReceiverId")
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             var mailingTracks = builder.Metadata.FindNavigation(nameof(Receiver.MailingTracks));
 

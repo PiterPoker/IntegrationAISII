@@ -113,6 +113,12 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasForeignKey<IncomingDocument>("MessageId")
                 .IsRequired();
 
+            builder
+                .HasOne(u => u.DocumentType)
+                .WithOne()
+                .HasForeignKey<IncomingDocument>("DocumentTypeId")
+                .IsRequired();
+
             /*builder
                 .HasMany(b => b.Versions)
                 .WithOne()

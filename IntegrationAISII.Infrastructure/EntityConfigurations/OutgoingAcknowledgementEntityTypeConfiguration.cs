@@ -1,4 +1,5 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.OutgoingAcknowledgementAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.IncomingAcknowledgementAggregate;
+using IntegrationAISII.Domain.AggregatesModel.AcknowledgementAggregate.OutgoingAcknowledgementAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -99,6 +100,11 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder.HasOne(p => p.Status)
                 .WithMany()
                 .HasForeignKey("StatusId");*/
+
+            builder.HasOne(b => b.Message)
+               .WithOne()
+               .HasForeignKey<OutgoingAcknowledgement>("AcknowledgementId")
+               .IsRequired();
 
             var navigation = builder.Metadata.FindNavigation(nameof(OutgoingAcknowledgement.MailingTracks));
 

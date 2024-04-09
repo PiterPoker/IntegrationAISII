@@ -1,4 +1,5 @@
-﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.OutgoingDocumentAggregate;
+﻿using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.IncomingDocumentAggregate;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.OutgoingDocumentAggregate;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -111,6 +112,12 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasOne(u => u.Message)
                 .WithOne()
                 .HasForeignKey<OutgoingDocument>("MessageId")
+                .IsRequired();
+
+            builder
+                .HasOne(u => u.DocumentType)
+                .WithOne()
+                .HasForeignKey<OutgoingDocument>("DocumentTypeId")
                 .IsRequired();
         }
     }

@@ -99,6 +99,11 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
             builder.HasOne(p => p.Status)
                 .WithMany()
                 .HasForeignKey("StatusId");*/
+            
+            builder.HasOne(b => b.Message)
+               .WithOne()
+               .HasForeignKey<IncomingAcknowledgement>("AcknowledgementId")
+               .IsRequired();
 
             var navigation = builder.Metadata.FindNavigation(nameof(IncomingAcknowledgement.MailingTracks));
 

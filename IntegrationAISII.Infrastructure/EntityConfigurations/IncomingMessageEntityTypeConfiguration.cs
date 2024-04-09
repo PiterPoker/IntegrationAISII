@@ -105,7 +105,7 @@ namespace IntegrationAISII.Infrastructure.EntityConfigurations
                 .HasMany(b => b.MailingTracks)
                 .WithOne()
                 .HasForeignKey("MessageId")
-                .OnDelete(DeleteBehavior.Cascade);
+                .OnDelete(DeleteBehavior.Restrict);
 
             var mailingTracks = builder.Metadata.FindNavigation(nameof(IncomingMessage.MailingTracks));
 
