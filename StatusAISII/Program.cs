@@ -47,6 +47,7 @@ try
             config.ResourcesPath = "/hc-ui";
             config.UIPath = "/hc-ui";
         });
+        //endpoints.MapHealthChecksUI(config => config.UIPath = "/hc-ui");
     });
     Log.Information("Starting web host ({ApplicationContext})...", AppName);
 

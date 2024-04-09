@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ugqhjluwJy37pPuwWu+bPh3yx8bYTYz/UJ6tGgWcmO8gndlBgFmaTmSDBCwSfEYejB2U+9wPFAAjVzutiVhENg==",
+  "dgSpecHash": "J20CAnm0LizOJZHM2xqPAXABHRhGcp1Ol2W+THTOzUBYGThhNWdiWmNJIbmFFbIRt9ptziLTLDTsYPobIMoRMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\IntegrationAISII.API.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.packaging.tools\\1.0.0-preview1-25301-01\\microsoft.packaging.tools.1.0.0-preview1-25301-01.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.10\\microsoft.rest.clientruntime.2.3.10.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\netstandard.library\\2.0.0-preview1-25301-01\\netstandard.library.2.0.0-preview1-25301-01.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

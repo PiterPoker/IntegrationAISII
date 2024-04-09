@@ -89,7 +89,7 @@
         "projectName": "IntegrationAISII.Infrastructure",
         "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -181,7 +181,7 @@
         "projectName": "IntegrationAISII.Test",
         "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
         "packagesPath": "C:\\Users\\Tema5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tema5\\Source\\Repos\\IntegrationAISII\\IntegrationAISII.Test\\obj\\",
+        "outputPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

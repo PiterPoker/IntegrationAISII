@@ -1,7 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|solutionrelative:integrationaisii.test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\integrationaisiicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\integrationaisiicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\integrationaisii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\integrationaisii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\statusaisii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\statusaisii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.test\\integrationaisii.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AF24FBE0-BCFF-4A55-B128-3823A770E849}|IntegrationAISII.Test\\IntegrationAISII.Test.csproj|solutionrelative:integrationaisii.test\\integrationaisii.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +90,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-08T21:19:36.42Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -20,8 +114,247 @@
               "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Test\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\UnitTest1.cs*",
+              "RelativeToolTip": "IntegrationAISII.Test\\UnitTest1.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T05:35:19.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Dockerfile",
+              "RelativeDocumentMoniker": "StatusAISII\\Dockerfile",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Dockerfile",
+              "RelativeToolTip": "StatusAISII\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-08T20:10:30.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StatusAISII.csproj",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
+              "RelativeDocumentMoniker": "StatusAISII\\StatusAISII.csproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
+              "RelativeToolTip": "StatusAISII\\StatusAISII.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T20:05:08.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegrationAISIIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAA6wEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T21:48:28.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IntegrationAISII.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+              "RelativeDocumentMoniker": "IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+              "RelativeToolTip": "IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T21:58:11.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\appsettings.json",
+              "RelativeDocumentMoniker": "StatusAISII\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\appsettings.json",
+              "RelativeToolTip": "StatusAISII\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T21:13:32.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IntegrationAISII.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T20:05:18.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-08T21:54:53.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:12:10.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\appsettings.json",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\appsettings.json",
+              "RelativeToolTip": "IntegrationAISII.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T20:39:07.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-08T20:04:35.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T20:00:06.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StatusAISII\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StatusAISII\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T21:55:50.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-08T20:23:23.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IntegrationAISII.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\IntegrationAISII.API.csproj",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\IntegrationAISII.API.csproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\IntegrationAISII.API.csproj",
+              "RelativeToolTip": "IntegrationAISII.API\\IntegrationAISII.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T20:05:03.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Program.cs",
+              "RelativeDocumentMoniker": "StatusAISII\\Program.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Program.cs",
+              "RelativeToolTip": "StatusAISII\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:12:03.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Dockerfile",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Dockerfile",
+              "RelativeToolTip": "IntegrationAISII.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-08T21:17:36.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\WeatherForecast.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T22:04:08.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": ".filenesting.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.filenesting.json",
+              "RelativeDocumentMoniker": ".filenesting.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.filenesting.json",
+              "RelativeToolTip": ".filenesting.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-08T21:30:39.439Z"
             }
           ]
         },

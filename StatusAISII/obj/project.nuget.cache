@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z99mDczPPh6SckA9ty+2cGy953NyciRp1mpPCIzBD0bllfvkC2NAchGUfRZW8fHJFERqVQj53jVXWSEh0rmUDg==",
+  "dgSpecHash": "G42Oi3tA7igY1ZfRi5VcgiXwKm4tV8ga/qO6r3B3DUPXDKlyX1GPtB3awrrU4CNyS/bhU8YnuYljJz3W3V87Ig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.packaging.tools\\1.0.0-preview1-25301-01\\microsoft.packaging.tools.1.0.0-preview1-25301-01.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.10\\microsoft.rest.clientruntime.2.3.10.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\netstandard.library\\2.0.0-preview1-25301-01\\netstandard.library.2.0.0-preview1-25301-01.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",

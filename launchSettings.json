@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "integrationaisii-api": "StartDebugging",
+        "statusaisii": "StartDebugging",
+        "pgadmin": "StartWithoutDebugging",
+        "dbPostgres": "StartWithoutDebugging"
+      }
+    }
+  }
+}

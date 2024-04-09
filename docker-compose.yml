@@ -1,0 +1,50 @@
+version: '3.4'
+
+services:
+  integrationaisii-api:
+    container_name: integrationaisii-api
+    image: ${DOCKER_REGISTRY-}integrationaisiiapi
+    build:
+      context: .
+      dockerfile: IntegrationAISII.API/Dockerfile
+    depends_on:
+      - pgadmin
+
+  statusaisii:
+    image: ${DOCKER_REGISTRY-}statusaisii
+    container_name: statusaisii
+    build:
+      context: .
+      dockerfile: StatusAISII/Dockerfile
+
+  dbPostgres:
+    image: postgres
+    container_name: dbPostgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=aisiidb
+    volumes:
+      - aisiidb_data:/var/lib/postgresql/data/
+
+  pgadmin:
+    container_name: pgadmin4
+    image: dpage/pgadmin4:6.17
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: password
+      PGADMIN_LISTEN_PORT: 80
+    ports:
+      - "8009:80"
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+volumes:
+  aisiidb_data:
+  pgadmin-data:
+
+

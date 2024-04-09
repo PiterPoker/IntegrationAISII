@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dc8f4882-6505-4609-aaaa-3758007714c6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98c3d9c54d779d970c5249539ae2f273ce371cc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0b43b93cd008d9429bf48568452b7e2046617a")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

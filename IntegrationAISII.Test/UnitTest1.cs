@@ -15,7 +15,7 @@ namespace IntegrationAISII.Test
             var optionsBuilder = new DbContextOptionsBuilder<IntegrationAISIIContext>();
 
             _options = optionsBuilder
-                .UseNpgsql("Host=127.0.0.1;Port=5432;Database=IntegrationAISIIDb;Username=postgres;Password=Qq123456")
+                .UseNpgsql("Host=127.0.0.1;Port=5432;Database=AISIIDb;Username=admin;Password=admin")
                 .Options;
         }
 
