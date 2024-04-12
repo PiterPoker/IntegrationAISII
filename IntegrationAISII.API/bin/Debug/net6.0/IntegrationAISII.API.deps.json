@@ -12,7 +12,12 @@
           "AspNetCore.HealthChecks.UI": "6.0.5",
           "AspNetCore.HealthChecks.UI.Client": "6.0.5",
           "AspNetCore.HealthChecks.UI.InMemory.Storage": "6.0.5",
+          "Autofac": "7.1.0",
+          "Autofac.Extensions.DependencyInjection": "7.1.0",
+          "EventBus": "1.0.0",
+          "FluentValidation": "11.9.0",
           "IntegrationAISII.Infrastructure": "1.0.0",
+          "IntegrationEventLogEF": "1.0.0",
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.17",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "6.0.28",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
@@ -97,6 +102,29 @@
           }
         }
       },
+      "Autofac/7.1.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.1.0": {
+        "dependencies": {
+          "Autofac": "7.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
       "AutoMapper/9.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -106,6 +134,14 @@
           "lib/netstandard2.0/AutoMapper.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
           }
         }
       },
@@ -1238,6 +1274,11 @@
           }
         }
       },
+      "EventBus/1.0.0": {
+        "runtime": {
+          "EventBus.dll": {}
+        }
+      },
       "IntegrationAISII.Domain/1.0.0": {
         "dependencies": {
           "MediatR": "9.0.0",
@@ -1258,6 +1299,17 @@
         },
         "runtime": {
           "IntegrationAISII.Infrastructure.dll": {}
+        }
+      },
+      "IntegrationEventLogEF/1.0.0": {
+        "dependencies": {
+          "EventBus": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.17",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11"
+        },
+        "runtime": {
+          "IntegrationEventLogEF.dll": {}
         }
       }
     }
@@ -1303,12 +1355,33 @@
       "path": "aspnetcore.healthchecks.ui.inmemory.storage/6.0.5",
       "hashPath": "aspnetcore.healthchecks.ui.inmemory.storage.6.0.5.nupkg.sha512"
     },
+    "Autofac/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "path": "autofac/7.1.0",
+      "hashPath": "autofac.7.1.0.nupkg.sha512"
+    },
+    "Autofac.Extensions.DependencyInjection/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nm6rZREZ9tjdKXu9cmT69zHkZODagjCPlRRCOhiS1VqFFis9LQnMl18L4OYr8yfCW1WAQkFDD2CNaK/kF5Eqeg==",
+      "path": "autofac.extensions.dependencyinjection/7.1.0",
+      "hashPath": "autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512"
+    },
     "AutoMapper/9.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "path": "automapper/9.0.0",
       "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
     },
     "Fractions/4.0.1": {
       "type": "package",
@@ -2087,12 +2160,22 @@
       "path": "yamldotnet/8.1.2",
       "hashPath": "yamldotnet.8.1.2.nupkg.sha512"
     },
+    "EventBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "IntegrationAISII.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "IntegrationAISII.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IntegrationEventLogEF/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

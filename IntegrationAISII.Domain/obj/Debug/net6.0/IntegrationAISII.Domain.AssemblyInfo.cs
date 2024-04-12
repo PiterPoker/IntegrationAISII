@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationAISII.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0b43b93cd008d9429bf48568452b7e2046617a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa100c44535485b7010bb270af202d1fc930eb31")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegrationAISII.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegrationAISII.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

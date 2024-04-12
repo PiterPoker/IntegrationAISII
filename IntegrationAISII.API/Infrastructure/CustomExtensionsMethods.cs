@@ -1,4 +1,8 @@
-﻿using IntegrationAISII.Infrastructure;
+﻿using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using IntegrationAISII.API.Infrastructure.AutofacModules;
+using IntegrationAISII.Infrastructure;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using System.Reflection;
@@ -57,5 +61,20 @@ namespace IntegrationAISII.API.Infrastructure
 
             return services;
         }
+
+        public static IServiceProvider AddCustomAutofac(this IServiceCollection services, IConfiguration configuration)
+        {
+            //configure autofac
+
+            var container = new ContainerBuilder();
+            container.Populate(services);
+
+            container.RegisterModule(new MediatorModule());
+            container.RegisterModule(new ApplicationModule(configuration["ConnectionString"]));
+
+            return new AutofacServiceProvider(container.Build());
+        }
+
+
     }
 }

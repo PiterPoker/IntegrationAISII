@@ -101,6 +101,39 @@
           }
         }
       },
+      "Autofac/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "AutoMapper/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -115,6 +148,19 @@
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1955,6 +2001,16 @@
           }
         }
       },
+      "EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.dll": {}
+        }
+      },
       "IntegrationAISII.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1985,6 +2041,22 @@
         },
         "runtime": {
           "bin/placeholder/IntegrationAISII.Infrastructure.dll": {}
+        }
+      },
+      "IntegrationEventLogEF/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EventBus": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.17",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.17",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11"
+        },
+        "compile": {
+          "bin/placeholder/IntegrationEventLogEF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IntegrationEventLogEF.dll": {}
         }
       }
     }
@@ -2063,6 +2135,45 @@
         "lib/net6.0/HealthChecks.UI.InMemory.Storage.xml"
       ]
     },
+    "Autofac/7.1.0": {
+      "sha512": "XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "type": "package",
+      "path": "autofac/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.7.1.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/7.1.0": {
+      "sha512": "nm6rZREZ9tjdKXu9cmT69zHkZODagjCPlRRCOhiS1VqFFis9LQnMl18L4OYr8yfCW1WAQkFDD2CNaK/kF5Eqeg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "AutoMapper/9.0.0": {
       "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
       "type": "package",
@@ -2078,6 +2189,31 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Fractions/4.0.1": {
@@ -5921,6 +6057,11 @@
         "yamldotnet.nuspec"
       ]
     },
+    "EventBus/1.0.0": {
+      "type": "project",
+      "path": "../EventBus/EventBus.csproj",
+      "msbuildProject": "../EventBus/EventBus.csproj"
+    },
     "IntegrationAISII.Domain/1.0.0": {
       "type": "project",
       "path": "../IntegrationAISII.Domain/IntegrationAISII.Domain.csproj",
@@ -5930,6 +6071,11 @@
       "type": "project",
       "path": "../IntegrationAISII.Infrastructure/IntegrationAISII.Infrastructure.csproj",
       "msbuildProject": "../IntegrationAISII.Infrastructure/IntegrationAISII.Infrastructure.csproj"
+    },
+    "IntegrationEventLogEF/1.0.0": {
+      "type": "project",
+      "path": "../IntegrationEventLogEF/IntegrationEventLogEF.csproj",
+      "msbuildProject": "../IntegrationEventLogEF/IntegrationEventLogEF.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5938,7 +6084,12 @@
       "AspNetCore.HealthChecks.UI >= 6.0.5",
       "AspNetCore.HealthChecks.UI.Client >= 6.0.5",
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 6.0.5",
+      "Autofac >= 7.1.0",
+      "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "EventBus >= 1.0.0",
+      "FluentValidation >= 11.9.0",
       "IntegrationAISII.Infrastructure >= 1.0.0",
+      "IntegrationEventLogEF >= 1.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.17",
       "Microsoft.Extensions.Diagnostics.HealthChecks >= 6.0.28",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.6",
@@ -5984,8 +6135,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\EventBus.csproj": {
+              "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\EventBus.csproj"
+            },
             "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj"
+            },
+            "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj": {
+              "projectPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj"
             }
           }
         }
@@ -6020,6 +6177,18 @@
           "AspNetCore.HealthChecks.UI.InMemory.Storage": {
             "target": "Package",
             "version": "[6.0.5, )"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.9.0, )"
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",

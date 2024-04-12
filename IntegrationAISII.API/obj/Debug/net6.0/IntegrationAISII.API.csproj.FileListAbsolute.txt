@@ -242,3 +242,10 @@ C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.API\obj\Debug\net6
 C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.API\obj\Debug\net6.0\IntegrationAISII.API.pdb
 C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.API\obj\Debug\net6.0\IntegrationAISII.API.genruntimeconfig.cache
 C:\Users\Tema5\Source\Repos\IntegrationAISII\IntegrationAISII.API\obj\Debug\net6.0\ref\IntegrationAISII.API.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\EventBus.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\IntegrationEventLogEF.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\EventBus.pdb
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.API\bin\Debug\net6.0\IntegrationEventLogEF.pdb

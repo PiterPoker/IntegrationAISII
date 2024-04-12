@@ -4,6 +4,7 @@ using IntegrationAISII.API.Infrastructure;
 using IntegrationAISII.Infrastructure;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Serilog;
@@ -12,14 +13,14 @@ using System.Reflection;
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog();
 //TODO: Дописать логирование и создать Startup
-string AppName = builder.Environment.ApplicationName;
+App.Name = builder.Environment.ApplicationName;
 
 try
 {
 
     Log.Logger = CreateSerilogLogger(builder.Configuration);
 
-    Log.Information("Applying migrations ({ApplicationContext})...", AppName);
+    Log.Information("Applying migrations ({ApplicationContext})...", App.Name);
 
     // Add services to the container.
 
@@ -34,9 +35,12 @@ try
     builder.Services
         .AddSwaggerGen();
 
+    builder.Services
+        .AddCustomAutofac(builder.Configuration);
+
     var app = builder.Build();
 
-    Log.Information("Configuring web host ({ApplicationContext})...", AppName);
+    Log.Information("Configuring web host ({ApplicationContext})...", App.Name);
     LogPackagesVersionInfo();
 
     // Configure the HTTP request pipeline.
@@ -60,14 +64,14 @@ try
         });
         endpoints.MapHealthChecksUI(config => config.UIPath = "/hc-ui");
     });
-    Log.Information("Starting web host ({ApplicationContext})...", AppName);
+    Log.Information("Starting web host ({ApplicationContext})...", App.Name);
 
     app.Run();
     return 0;
 }
 catch (Exception ex)
 {
-    Log.Fatal(ex, "Program terminated unexpectedly ({ApplicationContext})!", AppName);
+    Log.Fatal(ex, "Program terminated unexpectedly ({ApplicationContext})!", App.Name);
     return 1;
 }
 finally
@@ -82,7 +86,7 @@ Serilog.ILogger CreateSerilogLogger(IConfiguration configuration)
     var logstashUrl = configuration["Serilog:LogstashgUrl"];
     return new LoggerConfiguration()
         .MinimumLevel.Verbose()
-        .Enrich.WithProperty("ApplicationContext", AppName)
+        .Enrich.WithProperty("ApplicationContext", App.Name)
         .Enrich.FromLogContext()
         .WriteTo.Console()
         .WriteTo.Seq(string.IsNullOrWhiteSpace(seqServerUrl) ? "https://seq" : seqServerUrl)
@@ -122,5 +126,11 @@ void LogPackagesVersionInfo()
 
     var versionList = assemblies.Select(a => $"-{a.GetName().Name} - {GetVersion(a)}").OrderBy(value => value);
 
-    Log.Logger.ForContext("PackageVersions", string.Join("\n", versionList)).Information("Package versions ({ApplicationContext})", AppName);
+    Log.Logger.ForContext("PackageVersions", string.Join("\n", versionList)).Information("Package versions ({ApplicationContext})", App.Name);
+}
+
+
+public class App
+{
+    public static string Name;
 }

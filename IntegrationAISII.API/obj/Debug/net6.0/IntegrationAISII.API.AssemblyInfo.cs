@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23854ba9467abf5101ecab3c78ac6a3e55c63e80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa100c44535485b7010bb270af202d1fc930eb31")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegrationAISII.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
