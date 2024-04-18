@@ -255,3 +255,5 @@ C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\obj\Debug\net
 C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\obj\Debug\net6.0\IntegrationAISII.Test.pdb
 C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\obj\Debug\net6.0\IntegrationAISII.Test.genruntimeconfig.cache
 C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\obj\Debug\net6.0\ref\IntegrationAISII.Test.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\Tema5\source\repos\IntegrationAISII\IntegrationAISII.Test\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll

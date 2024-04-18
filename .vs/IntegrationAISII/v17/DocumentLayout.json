@@ -3,108 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\infrastructure\\customextensionsmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\infrastructure\\customextensionsmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\infrastructure\\autofacmodules\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\infrastructure\\autofacmodules\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\commands\\document\\incomingdocument\\getincomingdocumentlistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\commands\\document\\incomingdocument\\getincomingdocumentlistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\infrastructure\\autofacmodules\\mediatormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\infrastructure\\autofacmodules\\mediatormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\commands\\identifiedcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\commands\\identifiedcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\commands\\document\\incomingdocument\\getincomingdocumentlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\commands\\document\\incomingdocument\\getincomingdocumentlistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\models\\document\\incomingdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\models\\document\\incomingdocumentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\commands\\identifiedcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\commands\\identifiedcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\integrationaisiicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\integrationaisiicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\statusaisii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\statusaisii.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{67CB8284-D438-4B2B-A77B-2F193CDD57F9}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\integrationaisii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\integrationaisii.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\behaviors\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\behaviors\\transactionbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\behaviors\\transactionbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\behaviors\\validatorbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\behaviors\\validatorbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\inmemoryeventbussubscriptionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\inmemoryeventbussubscriptionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\statusaisii\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E32B24B-92F0-414E-A28A-BD591DA30443}|StatusAISII\\StatusAISII.csproj|solutionrelative:statusaisii\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\integrationevents\\iintegrationaisiiintegrationeventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\integrationevents\\iintegrationaisiiintegrationeventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\repositories\\incomingdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\repositories\\incomingdocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.api\\application\\integrationevents\\integrationaisiiintegrationeventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47BB6205-B12E-44B7-B33B-D06D2C48811F}|IntegrationAISII.API\\IntegrationAISII.API.csproj|solutionrelative:integrationaisii.api\\application\\integrationevents\\integrationaisiiintegrationeventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\integrationeventlogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\integrationeventlogentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\eventstateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\eventstateenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\integrationeventlogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\integrationeventlogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\abstractions\\ieventbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9561B11E-1362-4B98-B460-6E868D887667}|EventBusServiceBus\\EventBusServiceBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbusservicebus\\eventbusservicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9561B11E-1362-4B98-B460-6E868D887667}|EventBusServiceBus\\EventBusServiceBus.csproj|solutionrelative:eventbusservicebus\\eventbusservicebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.infrastructure\\integrationaisii.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0EB9CA5E-CE9B-4E24-ABA5-19934F60CF0F}|IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj|solutionrelative:integrationaisii.infrastructure\\integrationaisii.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\abstractions\\idynamicintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\abstractions\\idynamicintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\abstractions\\iintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\abstractions\\iintegrationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\integrationeventlogef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\integrationeventlogef.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\events\\integrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\events\\integrationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\extensions\\generictypeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\extensions\\generictypeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\ieventbussubscriptionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\ieventbussubscriptionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\services\\iintegrationeventlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\services\\iintegrationeventlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationeventlogef\\services\\integrationeventlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4938477-8623-4667-AF5D-E72C39236584}|IntegrationEventLogEF\\IntegrationEventLogEF.csproj|solutionrelative:integrationeventlogef\\services\\integrationeventlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\eventbus\\subscriptioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCEE47F0-1BA1-4384-9E94-3FAD56B40272}|EventBus\\EventBus.csproj|solutionrelative:eventbus\\subscriptioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF2E272F-C0CA-46B4-892F-9992021899DC}|IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj|c:\\users\\tema5\\source\\repos\\integrationaisii\\integrationaisii.domain\\integrationaisii.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF2E272F-C0CA-46B4-892F-9992021899DC}|IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj|solutionrelative:integrationaisii.domain\\integrationaisii.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -113,35 +113,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 223,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationModule.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\AutofacModules\\ApplicationModule.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Infrastructure\\AutofacModules\\ApplicationModule.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\AutofacModules\\ApplicationModule.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Infrastructure\\AutofacModules\\ApplicationModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T22:35:42.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomExtensionsMethods.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAowEAAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T22:33:05.865Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -152,137 +126,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAIAAAA",
+              "DocumentIndex": 3,
+              "Title": "IdentifiedCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\IdentifiedCommandHandler.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Commands\\IdentifiedCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\IdentifiedCommandHandler.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Application\\Commands\\IdentifiedCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T22:21:29.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EventStateEnum.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\EventStateEnum.cs",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\EventStateEnum.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\EventStateEnum.cs",
-              "RelativeToolTip": "IntegrationEventLogEF\\EventStateEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:20:19.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IntegrationEventLogEntry.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEntry.cs",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\IntegrationEventLogEntry.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEntry.cs",
-              "RelativeToolTip": "IntegrationEventLogEF\\IntegrationEventLogEntry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:19:01.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IntegrationAISIIIntegrationEventService.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\IntegrationEvents\\IntegrationAISIIIntegrationEventService.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\IntegrationEvents\\IntegrationAISIIIntegrationEventService.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\IntegrationEvents\\IntegrationAISIIIntegrationEventService.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Application\\IntegrationEvents\\IntegrationAISIIIntegrationEventService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:15:28.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TransactionBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\TransactionBehaviour.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Behaviors\\TransactionBehaviour.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\TransactionBehaviour.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Application\\Behaviors\\TransactionBehaviour.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwC0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:10:20.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IIntegrationAISIIIntegrationEventService.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\IntegrationEvents\\IIntegrationAISIIIntegrationEventService.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\IntegrationEvents\\IIntegrationAISIIIntegrationEventService.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\IntegrationEvents\\IIntegrationAISIIIntegrationEventService.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Application\\IntegrationEvents\\IIntegrationAISIIIntegrationEventService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:13:37.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InMemoryEventBusSubscriptionsManager.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\InMemoryEventBusSubscriptionsManager.cs",
-              "RelativeDocumentMoniker": "EventBus\\InMemoryEventBusSubscriptionsManager.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\InMemoryEventBusSubscriptionsManager.cs",
-              "RelativeToolTip": "EventBus\\InMemoryEventBusSubscriptionsManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:45:05.866Z",
+              "WhenOpened": "2024-04-18T14:06:28.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ValidatorBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\ValidatorBehavior.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Behaviors\\ValidatorBehavior.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\ValidatorBehavior.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Application\\Behaviors\\ValidatorBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Title": "IdentifiedCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\IdentifiedCommand.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Commands\\IdentifiedCommand.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\IdentifiedCommand.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Application\\Commands\\IdentifiedCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:05:46.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MediatorModule.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\AutofacModules\\MediatorModule.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Infrastructure\\AutofacModules\\MediatorModule.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\AutofacModules\\MediatorModule.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Infrastructure\\AutofacModules\\MediatorModule.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T20:51:59.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IntegrationEventLogContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogContext.cs",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\IntegrationEventLogContext.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogContext.cs",
-              "RelativeToolTip": "IntegrationEventLogEF\\IntegrationEventLogContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:22:48.066Z",
+              "WhenOpened": "2024-04-18T14:05:46.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Controllers\\DocumentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:02:09.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomExtensionsMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Infrastructure\\CustomExtensionsMethods.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowGIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T22:33:05.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IntegrationAISIIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\IntegrationAISIIContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwCEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:45:41.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:44:13.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "IntegrationAISII.API.csproj",
               "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\IntegrationAISII.API.csproj",
               "RelativeDocumentMoniker": "IntegrationAISII.API\\IntegrationAISII.API.csproj",
@@ -290,187 +212,265 @@
               "RelativeToolTip": "IntegrationAISII.API\\IntegrationAISII.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T21:26:15.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EventBusServiceBus.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBusServiceBus\\EventBusServiceBus.cs",
-              "RelativeDocumentMoniker": "EventBusServiceBus\\EventBusServiceBus.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBusServiceBus\\EventBusServiceBus.cs",
-              "RelativeToolTip": "EventBusServiceBus\\EventBusServiceBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:33:15.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoggingBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\LoggingBehavior.cs",
-              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Behaviors\\LoggingBehavior.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Behaviors\\LoggingBehavior.cs",
-              "RelativeToolTip": "IntegrationAISII.API\\Application\\Behaviors\\LoggingBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T20:56:36.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IntegrationAISII.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
-              "RelativeToolTip": "IntegrationAISII.Infrastructure\\IntegrationAISII.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T21:26:24.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IDynamicIntegrationEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IDynamicIntegrationEventHandler.cs",
-              "RelativeDocumentMoniker": "EventBus\\Abstractions\\IDynamicIntegrationEventHandler.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IDynamicIntegrationEventHandler.cs",
-              "RelativeToolTip": "EventBus\\Abstractions\\IDynamicIntegrationEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:30:52.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IIntegrationEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IIntegrationEventHandler.cs",
-              "RelativeDocumentMoniker": "EventBus\\Abstractions\\IIntegrationEventHandler.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IIntegrationEventHandler.cs",
-              "RelativeToolTip": "EventBus\\Abstractions\\IIntegrationEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:30:20.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IntegrationEventLogEF.csproj",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
-              "RelativeToolTip": "IntegrationEventLogEF\\IntegrationEventLogEF.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-12T21:25:00.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IEventBus.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IEventBus.cs",
-              "RelativeDocumentMoniker": "EventBus\\Abstractions\\IEventBus.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Abstractions\\IEventBus.cs",
-              "RelativeToolTip": "EventBus\\Abstractions\\IEventBus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:29:39.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IntegrationEvent.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Events\\IntegrationEvent.cs",
-              "RelativeDocumentMoniker": "EventBus\\Events\\IntegrationEvent.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Events\\IntegrationEvent.cs",
-              "RelativeToolTip": "EventBus\\Events\\IntegrationEvent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:14:46.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GenericTypeExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Extensions\\GenericTypeExtensions.cs",
-              "RelativeDocumentMoniker": "EventBus\\Extensions\\GenericTypeExtensions.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\Extensions\\GenericTypeExtensions.cs",
-              "RelativeToolTip": "EventBus\\Extensions\\GenericTypeExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:04:10.676Z",
+              "WhenOpened": "2024-04-18T09:34:33.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "IEventBusSubscriptionsManager.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\IEventBusSubscriptionsManager.cs",
-              "RelativeDocumentMoniker": "EventBus\\IEventBusSubscriptionsManager.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\IEventBusSubscriptionsManager.cs",
-              "RelativeToolTip": "EventBus\\IEventBusSubscriptionsManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAyAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Program.cs",
+              "RelativeDocumentMoniker": "StatusAISII\\Program.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Program.cs",
+              "RelativeToolTip": "StatusAISII\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:55:39.944Z",
+              "WhenOpened": "2024-04-18T09:46:35.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "IIntegrationEventLogService.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\Services\\IIntegrationEventLogService.cs",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\Services\\IIntegrationEventLogService.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\Services\\IIntegrationEventLogService.cs",
-              "RelativeToolTip": "IntegrationEventLogEF\\Services\\IIntegrationEventLogService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:18:16.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IntegrationEventLogService.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\Services\\IntegrationEventLogService.cs",
-              "RelativeDocumentMoniker": "IntegrationEventLogEF\\Services\\IntegrationEventLogService.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationEventLogEF\\Services\\IntegrationEventLogService.cs",
-              "RelativeToolTip": "IntegrationEventLogEF\\Services\\IntegrationEventLogService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:21:52.69Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Dockerfile",
+              "RelativeDocumentMoniker": "StatusAISII\\Dockerfile",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Dockerfile",
+              "RelativeToolTip": "StatusAISII\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-18T09:49:46.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "SubscriptionInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\SubscriptionInfo.cs",
-              "RelativeDocumentMoniker": "EventBus\\SubscriptionInfo.cs",
-              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\EventBus\\SubscriptionInfo.cs",
-              "RelativeToolTip": "EventBus\\SubscriptionInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "IntegrationAISII.Domain",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+              "RelativeDocumentMoniker": "IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+              "RelativeToolTip": "IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-18T09:33:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IncomingDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\Repositories\\IncomingDocumentRepository.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.Infrastructure\\Repositories\\IncomingDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Infrastructure\\Repositories\\IncomingDocumentRepository.cs",
+              "RelativeToolTip": "IntegrationAISII.Infrastructure\\Repositories\\IncomingDocumentRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwAwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T21:58:19.403Z",
+              "WhenOpened": "2024-04-17T12:40:28.719Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 177,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IncomingDocumentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Models\\Document\\IncomingDocumentDTO.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Models\\Document\\IncomingDocumentDTO.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Models\\Document\\IncomingDocumentDTO.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Application\\Models\\Document\\IncomingDocumentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:14:03.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetIncomingDocumentListCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommand.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommand.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommand.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:11:50.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-18T09:55:45.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "IntegrationAISII.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T09:55:17.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Program.cs*",
+              "RelativeToolTip": "IntegrationAISII.API\\Program.cs*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwB4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T22:21:29.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetIncomingDocumentListCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommandHandler.cs",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommandHandler.cs",
+              "RelativeToolTip": "IntegrationAISII.API\\Application\\Commands\\Document\\IncomingDocument\\GetIncomingDocumentListCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T14:15:10.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".filenesting.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.filenesting.json",
+              "RelativeDocumentMoniker": ".filenesting.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\.filenesting.json",
+              "RelativeToolTip": ".filenesting.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T09:55:47.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-18T09:55:52.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "docker-compose",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-18T09:55:30.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StatusAISII\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StatusAISII\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T09:44:28.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-18T09:56:05.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T09:56:19.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StatusAISII",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
+              "RelativeDocumentMoniker": "StatusAISII\\StatusAISII.csproj",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\StatusAISII\\StatusAISII.csproj",
+              "RelativeToolTip": "StatusAISII\\StatusAISII.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-18T09:56:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\appsettings.json",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\appsettings.json",
+              "RelativeToolTip": "IntegrationAISII.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-18T09:55:10.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Dockerfile",
+              "RelativeDocumentMoniker": "IntegrationAISII.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.API\\Dockerfile",
+              "RelativeToolTip": "IntegrationAISII.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-18T09:55:02.153Z",
+              "EditorCaption": ""
             }
           ]
         }

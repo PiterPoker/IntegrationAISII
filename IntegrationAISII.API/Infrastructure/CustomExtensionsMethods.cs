@@ -1,7 +1,11 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using IntegrationAISII.API.Infrastructure.AutofacModules;
+using FluentValidation;
+using IntegrationAISII.API.Application.Behaviors;
+using IntegrationAISII.Domain.AggregatesModel.DocumentAggregate.DocumentAggregate.IncomingDocumentAggregate;
 using IntegrationAISII.Infrastructure;
+using IntegrationAISII.Infrastructure.Idempotency;
+using IntegrationAISII.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -62,19 +66,47 @@ namespace IntegrationAISII.API.Infrastructure
             return services;
         }
 
-        public static IServiceProvider AddCustomAutofac(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
         {
-            //configure autofac
+            // Pooling is disabled because of the following error:
+            // Unhandled exception. System.InvalidOperationException:
+            if (configuration.GetConnectionString("DefaultConnection") is string connectionString)
+            {
+                // The DbContext of type 'OrderingContext' cannot be pooled because it does not have a public constructor accepting a single parameter of type DbContextOptions or has more than one constructor.
+                services.AddDbContext<IntegrationAISIIContext>(options =>
+                {
+                    options.UseNpgsql(connectionString);
+                });
+            }
+            else
+            {
+                throw new ArgumentNullException(nameof(connectionString));
+            }
 
-            var container = new ContainerBuilder();
-            container.Populate(services);
+            //builder.EnrichNpgsqlDbContext<IntegrationAISIIContext>();
 
-            container.RegisterModule(new MediatorModule());
-            container.RegisterModule(new ApplicationModule(configuration["ConnectionString"]));
+            // Configure mediatR
+            services.AddMediatR(cfg =>
+            {
+                cfg.RegisterServicesFromAssemblyContaining(typeof(Program));
 
-            return new AutofacServiceProvider(container.Build());
+                cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
+                cfg.AddOpenBehavior(typeof(ValidatorBehavior<,>));
+                cfg.AddOpenBehavior(typeof(TransactionBehavior<,>));
+            });
+
+            // Register the command validators for the validator behavior (validators based on FluentValidation library)
+            /*services.AddSingleton<IValidator<CancelOrderCommand>, CancelOrderCommandValidator>();
+            services.AddSingleton<IValidator<CreateOrderCommand>, CreateOrderCommandValidator>();
+            services.AddSingleton<IValidator<IdentifiedCommand<CreateOrderCommand, bool>>, IdentifiedCommandValidator>();
+            services.AddSingleton<IValidator<ShipOrderCommand>, ShipOrderCommandValidator>();
+
+            services.AddScoped<IOrderQueries, OrderQueries>();
+            services.AddScoped<IBuyerRepository, BuyerRepository>();*/
+            services.AddScoped<IIncomingDocumentRepository, IncomingDocumentRepository>();
+            services.AddScoped<IRequestManager, RequestManager>();
+
+            return services;
         }
-
-
     }
 }

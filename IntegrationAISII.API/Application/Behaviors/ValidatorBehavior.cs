@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using IntegrationAISII.Domain;
+using IntegrationAISII.Domain.SeedWork;
 using MediatR;
-using EventBus.Extensions;
 
 namespace IntegrationAISII.API.Application.Behaviors
 {
@@ -16,11 +16,11 @@ namespace IntegrationAISII.API.Application.Behaviors
             _logger = logger;
         }
 
-        public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
+        public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
             var typeName = request.GetGenericTypeName();
 
-            _logger.LogInformation("----- Validating command {CommandType}", typeName);
+            _logger.LogInformation("Validating command {CommandType}", typeName);
 
             var failures = _validators
                 .Select(v => v.Validate(request))

@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WTYNXzGvWl4d37t/IQ7mAV82cBOyFF268auAIregx6RUk2jLkbJcNewjpLvXpTbqGWQVMeZi+y5y51/suncaOQ==",
+  "dgSpecHash": "715gU5mHvNLCe/C9n39w4uBooQgCtUe1UH06Hmb1rEKFCD2tQJsKnmMFbz4Y+XosDmg/RkWdFpNe/gCeQYe07w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Domain\\IntegrationAISII.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
-    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\system.reflection.typeextensions\\4.7.0\\system.reflection.typeextensions.4.7.0.nupkg.sha512"
   ],
   "logs": []

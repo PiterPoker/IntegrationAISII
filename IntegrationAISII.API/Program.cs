@@ -25,8 +25,9 @@ try
     // Add services to the container.
 
     builder.Services
-        .AddCustomHealthCheck(builder.Configuration)
-        .AddCustomDbContext(builder.Configuration);
+        .AddApplicationServices(builder.Configuration)
+        .AddCustomHealthCheck(builder.Configuration);
+        //.AddCustomDbContext(builder.Configuration);
     builder.Services
         .AddControllers();
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -34,9 +35,6 @@ try
         .AddEndpointsApiExplorer();
     builder.Services
         .AddSwaggerGen();
-
-    builder.Services
-        .AddCustomAutofac(builder.Configuration);
 
     var app = builder.Build();
 
@@ -56,7 +54,9 @@ try
     app.UseRouting();
     app.UseEndpoints(endpoints =>
     {
-        endpoints.MapControllers();
+        endpoints.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}");
         endpoints.MapHealthChecks("/hc", new HealthCheckOptions()
         {
             Predicate = _ => true,

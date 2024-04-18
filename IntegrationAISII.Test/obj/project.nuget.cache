@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3Xd6Js0P4t+s6oysenWCg6kss99clpKw7njgpfyuKq/KIb/BrzkjNGtVmUM8dUG1Q6lPxhngdQIDhfNn6ncz7Q==",
+  "dgSpecHash": "w6JnZSiYrYOe5NwWi7wRY4xjRP9PrtI0OddIS5h9rBqhUxMCe+zJ02sf+OhrO+Z0L195IcZH8tLstHe3dEDhLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tema5\\source\\repos\\IntegrationAISII\\IntegrationAISII.Test\\IntegrationAISII.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tema5\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Tema5\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.17\\microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
